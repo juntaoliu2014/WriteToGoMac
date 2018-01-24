@@ -15,7 +15,16 @@ class ViewController: NSViewController {
 
         // Do any additional setup after loading the view.
     }
-
+    
+    @IBOutlet weak var AppLabel: NSTextField!
+  
+    @IBOutlet weak var OpenPer: NSButton!
+    
+    @IBAction func ShowPer(_ sender: NSButton)
+    {
+        
+    }
+    
     override var representedObject: Any? {
         didSet {
         // Update the view, if already loaded.
