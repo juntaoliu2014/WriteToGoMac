@@ -749,7 +749,7 @@
         <!--Input Username-->
         <scene sceneID="2rb-7T-wiK">
             <objects>
-                <viewController title="Input Username" id="1g8-uP-FPp" sceneMemberID="viewController">
+                <viewController title="Input Username" id="1g8-uP-FPp" customClass="InputUsername" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="Pca-li-XXL">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -762,6 +762,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
+                                    <action selector="CreateAction:" target="1g8-uP-FPp" id="nKd-el-2TF"/>
                                     <segue destination="isg-Ad-ayz" kind="show" id="UUs-NE-pPM"/>
                                 </connections>
                             </button>
@@ -785,6 +786,9 @@
                             </textField>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="CreateButton" destination="xGj-ON-MqG" id="74h-tI-Z2z"/>
+                    </connections>
                 </viewController>
                 <customObject id="JlT-Yf-R3X" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>

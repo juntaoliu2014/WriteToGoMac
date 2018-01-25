@@ -14,12 +14,18 @@ class InputUsername: NSViewController
     
  
     
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do view setup here.
     }
     
+    @IBOutlet weak var CreateButton: NSButton!
     
+    @IBAction func CreateAction(_ sender: Any)
+    {
+        
+    }
     
     
     
