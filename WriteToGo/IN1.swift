@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class InputUsername: NSViewController
+class InputName1: NSViewController
 {
     
     

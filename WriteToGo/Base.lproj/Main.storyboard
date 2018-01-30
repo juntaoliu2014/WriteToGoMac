@@ -678,7 +678,7 @@
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="0.0"/>
+            <point key="canvasLocation" x="75" y="-63"/>
         </scene>
         <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
@@ -713,6 +713,9 @@
                                 <rect key="frame" x="-195" y="209" width="1000" height="750"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Descriptive W-1" id="9Be-bx-fGW"/>
+                                <connections>
+                                    <segue destination="1ce-Dj-OIm" kind="show" id="pYT-oQ-Qvs"/>
+                                </connections>
                             </imageView>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZmP-Zt-qLT">
                                 <rect key="frame" x="28" y="115" width="73" height="17"/>
@@ -723,7 +726,7 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nPh-ip-jdE">
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nPh-ip-jdE" userLabel="Open 1">
                                 <rect key="frame" x="269" y="443" width="73" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="push" title="Open" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="N71-Y2-lDu">
@@ -744,6 +747,26 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HHu-bR-b7g">
+                                <rect key="frame" x="464" y="479" width="117" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Procedural Writing" id="TeA-HG-7wE">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eQr-WO-VLQ" userLabel="Open 2">
+                                <rect key="frame" x="486" y="443" width="73" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Open" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ial-VY-hk0">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ShowPer:" target="XfG-lQ-9wD" id="k1j-fM-l8V"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
@@ -755,16 +778,16 @@
             </objects>
             <point key="canvasLocation" x="75" y="1220"/>
         </scene>
-        <!--Input Username-->
+        <!--IN 1-->
         <scene sceneID="2rb-7T-wiK">
             <objects>
-                <viewController title="Input Username" id="1g8-uP-FPp" customClass="InputUsername" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="IN 1" id="1g8-uP-FPp" customClass="InputName1" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="Pca-li-XXL">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xGj-ON-MqG">
-                                <rect key="frame" x="185" y="132" width="81" height="32"/>
+                                <rect key="frame" x="185" y="582" width="81" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="push" title="Create" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="fmR-ba-347">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -776,7 +799,7 @@
                                 </connections>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oi8-FD-UUZ">
-                                <rect key="frame" x="203" y="210" width="44" height="17"/>
+                                <rect key="frame" x="203" y="660" width="44" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Name:" id="UHi-ka-6sw">
                                     <font key="font" metaFont="system"/>
@@ -785,9 +808,9 @@
                                 </textFieldCell>
                             </textField>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qgh-6P-GIu">
-                                <rect key="frame" x="177" y="174" width="103" height="22"/>
+                                <rect key="frame" x="152" y="624" width="147" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="Input username" drawsBackground="YES" id="Tv6-pv-p10">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="The Persuasive Writing" drawsBackground="YES" id="Tv6-pv-p10">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -801,20 +824,38 @@
                 </viewController>
                 <customObject id="JlT-Yf-R3X" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="1878"/>
+            <point key="canvasLocation" x="-1190" y="2159"/>
+        </scene>
+        <!--IN 2-->
+        <scene sceneID="8fG-BN-b8N">
+            <objects>
+                <viewController title="IN 2" id="1ce-Dj-OIm" sceneMemberID="viewController">
+                    <view key="view" id="vgZ-y7-sjw">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="NDN-O4-dUO" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-166" y="2159"/>
         </scene>
         <!--Persuasive W-->
         <scene sceneID="Lhg-ot-pfv">
             <objects>
-                <viewController title="Persuasive W" id="isg-Ad-ayz" sceneMemberID="viewController">
+                <viewController title="Persuasive W" id="isg-Ad-ayz" customClass="PersuasiveWriting" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="rYg-ao-9yY">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JXw-Zq-TU7">
-                                <rect key="frame" x="167" y="263" width="117" height="17"/>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="osQ-yl-3Mc" userLabel="Background">
+                                <rect key="frame" x="0.0" y="-9" width="1000" height="770"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Descriptive W-2" id="cur-E3-HKg"/>
+                            </imageView>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tt5-15-d02">
+                                <rect key="frame" x="442" y="634" width="117" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Persuasive Writing" id="yS6-hy-86N">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Persuasive Writing" id="y4z-Nc-VpV">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -825,10 +866,11 @@
                 </viewController>
                 <customObject id="Szn-LZ-Fq8" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-360" y="2382"/>
+            <point key="canvasLocation" x="-1190" y="3023"/>
         </scene>
     </scenes>
     <resources>
         <image name="Descriptive W-1" width="124" height="169"/>
+        <image name="Descriptive W-2" width="832" height="624"/>
     </resources>
 </document>
