@@ -1,14 +1,14 @@
 //
-//  File.swift
+//  PersuasiveWM.swift
 //  WriteToGo
 //
-//  Created by Julie Liu on 1/25/18.
+//  Created by Julie Liu on 2/7/18.
 //  Copyright © 2018 Julie Liu. All rights reserved.
 //
 
 import Cocoa
 
-class DescriptiveW: NSViewController
+class PersuasiveWM: NSViewController
 {
     
     
@@ -20,7 +20,6 @@ class DescriptiveW: NSViewController
         // Do view setup here.
     }
     
-
     
     
     

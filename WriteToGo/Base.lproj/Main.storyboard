@@ -710,9 +710,9 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                         <subviews>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R9B-qq-Ua8">
-                                <rect key="frame" x="-195" y="209" width="1000" height="750"/>
+                                <rect key="frame" x="232" y="504" width="148" height="198"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Descriptive W-1" id="9Be-bx-fGW"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Descriptive W 1" id="9Be-bx-fGW"/>
                                 <connections>
                                     <segue destination="1ce-Dj-OIm" kind="show" id="pYT-oQ-Qvs"/>
                                 </connections>
@@ -735,13 +735,12 @@
                                 </buttonCell>
                                 <connections>
                                     <action selector="ShowPer:" target="XfG-lQ-9wD" id="sEu-n4-sdD"/>
-                                    <segue destination="1g8-uP-FPp" kind="show" id="qCu-ze-pjx"/>
                                 </connections>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wrs-Hi-4CH">
-                                <rect key="frame" x="248" y="479" width="117" height="17"/>
+                                <rect key="frame" x="248" y="479" width="120" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Persuasive Writing" id="hI6-eF-5J3">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Descriptive Writing" id="hI6-eF-5J3">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -767,6 +766,27 @@
                                     <action selector="ShowPer:" target="XfG-lQ-9wD" id="k1j-fM-l8V"/>
                                 </connections>
                             </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jea-Bb-bJu" userLabel="Open 3">
+                                <rect key="frame" x="700" y="443" width="73" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Open" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="nRo-ex-grm">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ShowPer:" target="XfG-lQ-9wD" id="DUY-WJ-aht"/>
+                                    <segue destination="1g8-uP-FPp" kind="show" id="TQg-Z6-weC"/>
+                                </connections>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xDG-p4-Kab">
+                                <rect key="frame" x="678" y="479" width="117" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Persuasive Writing" id="gJY-Wr-aVi">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                         </subviews>
                     </view>
                     <connections>
@@ -778,16 +798,25 @@
             </objects>
             <point key="canvasLocation" x="75" y="1220"/>
         </scene>
-        <!--IN 1-->
+        <!--IN 3-->
         <scene sceneID="2rb-7T-wiK">
             <objects>
-                <viewController title="IN 1" id="1g8-uP-FPp" customClass="InputName1" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="IN 1" id="1g8-uP-FPp" userLabel="IN 3" customClass="InputName3" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="Pca-li-XXL">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oi8-FD-UUZ">
+                                <rect key="frame" x="478" y="460" width="44" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Name:" id="UHi-ka-6sw">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xGj-ON-MqG">
-                                <rect key="frame" x="185" y="582" width="81" height="32"/>
+                                <rect key="frame" x="460" y="296" width="81" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="push" title="Create" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="fmR-ba-347">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -798,17 +827,8 @@
                                     <segue destination="isg-Ad-ayz" kind="show" id="UUs-NE-pPM"/>
                                 </connections>
                             </button>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oi8-FD-UUZ">
-                                <rect key="frame" x="203" y="660" width="44" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Name:" id="UHi-ka-6sw">
-                                    <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qgh-6P-GIu">
-                                <rect key="frame" x="152" y="624" width="147" height="22"/>
+                                <rect key="frame" x="425" y="384" width="150" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="The Persuasive Writing" drawsBackground="YES" id="Tv6-pv-p10">
                                     <font key="font" metaFont="system"/>
@@ -816,6 +836,19 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nmo-g9-EQN" userLabel="Cancel B">
+                                <rect key="frame" x="870" y="680" width="90" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Cancel B" id="oYZ-2q-phF"/>
+                                <connections>
+                                    <segue destination="XfG-lQ-9wD" kind="show" id="gcp-FQ-xmK"/>
+                                </connections>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JaJ-2v-1lw" userLabel="Background">
+                                <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Persuasive W 2" id="PdA-cy-uFK"/>
+                            </imageView>
                         </subviews>
                     </view>
                     <connections>
@@ -829,7 +862,7 @@
         <!--IN 2-->
         <scene sceneID="8fG-BN-b8N">
             <objects>
-                <viewController title="IN 2" id="1ce-Dj-OIm" sceneMemberID="viewController">
+                <viewController title="IN 2" id="1ce-Dj-OIm" customClass="InputName2" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="vgZ-y7-sjw">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -842,7 +875,7 @@
         <!--Persuasive W-->
         <scene sceneID="Lhg-ot-pfv">
             <objects>
-                <viewController title="Persuasive W" id="isg-Ad-ayz" customClass="PersuasiveWriting" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Persuasive W" id="isg-Ad-ayz" customClass="DescriptiveW" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="rYg-ao-9yY">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -850,17 +883,21 @@
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="osQ-yl-3Mc" userLabel="Background">
                                 <rect key="frame" x="0.0" y="-9" width="1000" height="770"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Descriptive W-2" id="cur-E3-HKg"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Persuasive W 3" id="cur-E3-HKg"/>
                             </imageView>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tt5-15-d02">
-                                <rect key="frame" x="442" y="634" width="117" height="17"/>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PY1-bv-uhk" userLabel="Menu B">
+                                <rect key="frame" x="750" y="680" width="90" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Persuasive Writing" id="y4z-Nc-VpV">
-                                    <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Menue B" id="S4A-Ck-QUg"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z6Y-Tn-zGh" userLabel="Next B">
+                                <rect key="frame" x="870" y="680" width="90" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Next B" id="X60-EJ-NbS"/>
+                                <connections>
+                                    <segue destination="LEz-4E-ljt" kind="show" id="cT3-N5-nLj"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                     </view>
                 </viewController>
@@ -868,9 +905,168 @@
             </objects>
             <point key="canvasLocation" x="-1190" y="3023"/>
         </scene>
+        <!--Persuative W Example-->
+        <scene sceneID="N7D-Uu-NIy">
+            <objects>
+                <viewController title="Persuative W Example" id="LEz-4E-ljt" customClass="PersuasiveWE" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="cgD-bH-H4c">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fXM-XW-I6c" userLabel="Background">
+                                <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Persuasive W 4" id="8un-8N-vsa"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bbo-nq-HMi" userLabel="Next B">
+                                <rect key="frame" x="870" y="680" width="90" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Next B" id="Sny-lc-pHY"/>
+                                <connections>
+                                    <segue destination="wjl-rQ-2kU" kind="show" id="UIo-n0-g9O"/>
+                                </connections>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2rx-IL-aMI" userLabel="Previous B">
+                                <rect key="frame" x="750" y="680" width="90" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Previous B" id="RdQ-Kr-Ve0"/>
+                                <connections>
+                                    <segue destination="isg-Ad-ayz" kind="show" id="2gm-Aw-54S"/>
+                                </connections>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WAd-we-zDe" userLabel="Menu B">
+                                <rect key="frame" x="630" y="680" width="90" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Menue B" id="6mA-d3-Lbg"/>
+                            </imageView>
+                        </subviews>
+                    </view>
+                </viewController>
+                <customObject id="zhZ-nM-QGn" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1190" y="3892"/>
+        </scene>
+        <!--Persuasive W Mind Map-->
+        <scene sceneID="hkE-C0-sw9">
+            <objects>
+                <viewController title="Persuasive W Mind Map" id="wjl-rQ-2kU" customClass="PersuasiveWM" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="nda-8U-EXo">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="700"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aPE-u4-Ooz" userLabel="Background">
+                                <rect key="frame" x="-20" y="-29" width="1028" height="759"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Mind Map Pic" id="xJm-yz-Vqu"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2ot-3x-21Y" userLabel="Background 2">
+                                <rect key="frame" x="122" y="26" width="836" height="647"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Persuasive W 5" id="DW4-0r-WmB"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZOI-Hh-Eku" userLabel="Next B">
+                                <rect key="frame" x="870" y="630" width="90" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Next B" id="L4G-Pi-CrK"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YKy-fb-RBx" userLabel="Previous B">
+                                <rect key="frame" x="750" y="630" width="90" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Previous B" id="tt3-Xc-nLk"/>
+                                <connections>
+                                    <segue destination="LEz-4E-ljt" kind="show" id="xsx-cz-LHB"/>
+                                </connections>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KXD-An-rDr" userLabel="Menu B">
+                                <rect key="frame" x="630" y="630" width="90" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Menue B" id="DW2-4v-r74"/>
+                            </imageView>
+                            <scrollView fixedFrame="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k9t-97-6io">
+                                <rect key="frame" x="141" y="275" width="122" height="169"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <clipView key="contentView" ambiguous="YES" id="Oa6-9O-sVP">
+                                    <rect key="frame" x="1" y="1" width="120" height="167"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <textView ambiguous="YES" importsGraphics="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="JeE-BO-f2j">
+                                            <rect key="frame" x="0.0" y="0.0" width="120" height="167"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <size key="minSize" width="120" height="167"/>
+                                            <size key="maxSize" width="463" height="10000000"/>
+                                            <attributedString key="textStorage">
+                                                <fragment content="You can write in these boxes.">
+                                                    <attributes>
+                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="insertionPointColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </textView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </clipView>
+                                <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="dit-oo-Aor">
+                                    <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                                <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="csP-ll-fEL">
+                                    <rect key="frame" x="105" y="1" width="16" height="167"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                            </scrollView>
+                            <scrollView fixedFrame="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VcP-ne-pMG">
+                                <rect key="frame" x="811" y="275" width="122" height="169"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <clipView key="contentView" ambiguous="YES" id="V6Z-WB-hy8">
+                                    <rect key="frame" x="1" y="1" width="120" height="167"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <textView ambiguous="YES" importsGraphics="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="Lce-eZ-Got">
+                                            <rect key="frame" x="0.0" y="0.0" width="120" height="167"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <size key="minSize" width="120" height="167"/>
+                                            <size key="maxSize" width="463" height="10000000"/>
+                                            <color key="insertionPointColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </textView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </clipView>
+                                <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="92l-xQ-Tcc">
+                                    <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                                <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="6NT-e2-Cir">
+                                    <rect key="frame" x="105" y="1" width="16" height="167"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                            </scrollView>
+                        </subviews>
+                    </view>
+                </viewController>
+                <customObject id="s1f-Y4-2V3" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1190" y="4744"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="Descriptive W-1" width="124" height="169"/>
-        <image name="Descriptive W-2" width="832" height="624"/>
+        <image name="Cancel B" width="81" height="28"/>
+        <image name="Descriptive W 1" width="124" height="169"/>
+        <image name="Menue B" width="79" height="27"/>
+        <image name="Mind Map Pic" width="1600" height="1200"/>
+        <image name="Next B" width="79" height="26"/>
+        <image name="Persuasive W 2" width="833" height="624"/>
+        <image name="Persuasive W 3" width="833" height="624"/>
+        <image name="Persuasive W 4" width="834" height="624"/>
+        <image name="Persuasive W 5" width="690" height="522"/>
+        <image name="Previous B" width="80" height="29"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="cT3-N5-nLj"/>
+        <segue reference="UUs-NE-pPM"/>
+        <segue reference="gcp-FQ-xmK"/>
+    </inferredMetricsTieBreakers>
 </document>

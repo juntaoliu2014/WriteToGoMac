@@ -1,5 +1,5 @@
 //
-//  InputUsername.swift
+//  IN3.swift
 //  WriteToGo
 //
 //  Created by Julie Liu on 1/24/18.
@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class InputName1: NSViewController
+class InputName3: NSViewController
 {
     
     
