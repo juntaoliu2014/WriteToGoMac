@@ -27,7 +27,11 @@ class InputName3: NSViewController
         
     }
     
-    
+  
+    @IBAction func CancelAction(_ sender: Any)
+    {
+        self.dismissViewController(self)
+    }
     
 }
 

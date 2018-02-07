@@ -1,5 +1,5 @@
 //
-//  PersuasiveWM.swift
+//  PersuasiveWE.swift
 //  WriteToGo
 //
 //  Created by Julie Liu on 2/7/18.
@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class PersuasiveWM: NSViewController
+class PersuasiveWE: NSViewController
 {
     
     
@@ -22,17 +22,17 @@ class PersuasiveWM: NSViewController
     
     @IBOutlet weak var NextButton: NSButton!
     
-    @IBAction func NextAction(_ sender: Any)
-    {
-        
+    @IBAction func NextAction(_ sender: Any) {
     }
+    
     @IBOutlet weak var PreviousButton: NSButton!
     
-    @IBAction func PreviousAction(_ sender: Any)
-    {
-        
+    @IBAction func PreviousAction(_ sender: Any) {
     }
+    
+    
     
     
     
 }
+

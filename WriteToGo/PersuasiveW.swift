@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class DescriptiveW: NSViewController
+class PersuasiveW: NSViewController
 {
     
     

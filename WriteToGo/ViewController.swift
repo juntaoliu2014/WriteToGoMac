@@ -22,8 +22,22 @@ class ViewController: NSViewController {
     
     @IBAction func ShowPer(_ sender: NSButton)
     {
-        
+       
+        NSLog ("before dismiss")
+        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowPer"), sender: self)
+        self.dismissViewController(self)
     }
+    
+    @IBAction func ShowPro(_ sender: NSButton)
+    {
+        NSLog ("before dismiss")
+        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowPro"), sender: self)
+    }
+    
+    
+    
+    
+    
     
     override var representedObject: Any? {
         didSet {
