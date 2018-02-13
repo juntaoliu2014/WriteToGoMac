@@ -20,18 +20,23 @@ class ViewController: NSViewController {
   
     @IBOutlet weak var OpenPer: NSButton!
     
+    
+
+    
+    
+    
     @IBAction func ShowPer(_ sender: NSButton)
     {
        
         NSLog ("before dismiss")
-        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowPer"), sender: self)
+        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowIN3"), sender: self)
         self.dismissViewController(self)
     }
     
     @IBAction func ShowPro(_ sender: NSButton)
     {
         NSLog ("before dismiss")
-        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowPro"), sender: self)
+        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowIN2"), sender: self)
     }
     
     

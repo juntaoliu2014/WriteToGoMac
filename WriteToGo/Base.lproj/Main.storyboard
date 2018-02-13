@@ -780,13 +780,24 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bO9-Ms-u0E">
+                                <rect key="frame" x="56" y="560" width="73" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Open" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="DkI-rj-mDZ">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="OpenButtonAction:" target="XfG-lQ-9wD" id="YRP-tf-SpE"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
                         <outlet property="AppLabel" destination="ZmP-Zt-qLT" id="CwH-AB-nqq"/>
                         <outlet property="OpenPer" destination="nPh-ip-jdE" id="vOQ-B0-Nrr"/>
-                        <segue destination="1g8-uP-FPp" kind="show" identifier="ShowPer" id="Sce-Fs-GXF"/>
-                        <segue destination="1ce-Dj-OIm" kind="show" identifier="ShowPro" id="Ggu-Mp-r0M"/>
+                        <segue destination="1g8-uP-FPp" kind="show" identifier="ShowIN3" id="Sce-Fs-GXF"/>
+                        <segue destination="1ce-Dj-OIm" kind="show" identifier="ShowIN2" id="Ggu-Mp-r0M"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
@@ -823,8 +834,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="CreateAction:" target="1g8-uP-FPp" id="nKd-el-2TF"/>
-                                    <segue destination="isg-Ad-ayz" kind="show" id="UUs-NE-pPM"/>
+                                    <action selector="SaveText:" target="1g8-uP-FPp" id="77y-C2-8Rv"/>
                                 </connections>
                             </button>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qgh-6P-GIu">
@@ -847,14 +857,16 @@ Gw
 </string>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="CancelAction:" target="1g8-uP-FPp" id="86b-3W-5km"/>
-                                    <segue destination="XfG-lQ-9wD" kind="show" id="Gzn-JO-e3F"/>
+                                    <action selector="ShowMain:" target="1g8-uP-FPp" id="kBm-XQ-Nv1"/>
                                 </connections>
                             </button>
                         </subviews>
                     </view>
                     <connections>
                         <outlet property="CreateButton" destination="xGj-ON-MqG" id="74h-tI-Z2z"/>
+                        <outlet property="SaveText" destination="xGj-ON-MqG" id="fkD-wq-DG5"/>
+                        <segue destination="isg-Ad-ayz" kind="show" identifier="ShowPerW" id="RyS-Jo-lQk"/>
+                        <segue destination="XfG-lQ-9wD" kind="show" identifier="ShowMain" id="XmE-HB-PZG"/>
                     </connections>
                 </viewController>
                 <customObject id="JlT-Yf-R3X" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
@@ -1408,6 +1420,7 @@ Gw
                     <connections>
                         <outlet property="NextButton" destination="hbJ-mD-irJ" id="E6Y-Rc-yBz"/>
                         <outlet property="PreviousButton" destination="etB-QB-F1V" id="ZkM-UX-tDg"/>
+                        <outlet property="map1Text" destination="k9t-97-6io" id="KHw-WO-jz1"/>
                     </connections>
                 </viewController>
                 <customObject id="s1f-Y4-2V3" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
@@ -1419,11 +1432,11 @@ Gw
             <objects>
                 <viewController title="Persuasive W W" id="fAP-OQ-QrS" customClass="PersuasiveWW" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="nXl-fa-CqV">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="700"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PCc-Mh-TL2">
-                                <rect key="frame" x="282" y="169" width="81" height="32"/>
+                                <rect key="frame" x="282" y="569" width="81" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Esp-nV-t8X">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -1435,7 +1448,7 @@ Gw
                 </viewController>
                 <customObject id="bWG-An-eGR" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1267" y="5436"/>
+            <point key="canvasLocation" x="-1190" y="5531"/>
         </scene>
     </scenes>
     <resources>
@@ -1447,7 +1460,7 @@ Gw
         <image name="Persuasive W 5" width="690" height="522"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="UUs-NE-pPM"/>
-        <segue reference="Gzn-JO-e3F"/>
+        <segue reference="RyS-Jo-lQk"/>
+        <segue reference="XmE-HB-PZG"/>
     </inferredMetricsTieBreakers>
 </document>
