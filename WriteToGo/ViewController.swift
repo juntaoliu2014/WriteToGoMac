@@ -29,20 +29,13 @@ class ViewController: NSViewController {
     {
        
         NSLog ("before dismiss")
-        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowIN3"), sender: self)
-        self.dismissViewController(self)
+        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowPer"), sender: self)
     }
     
-    @IBAction func ShowPro(_ sender: NSButton)
-    {
-        NSLog ("before dismiss")
-        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowIN2"), sender: self)
-    }
+
     
     
-    
-    
-    
+
     
     override var representedObject: Any? {
         didSet {
@@ -50,6 +43,10 @@ class ViewController: NSViewController {
         }
     }
 
+    override func prepare(for segue: NSStoryboardSegue, sender: Any?)
+    {
+        self.view.window?.close()
+    }
 
 }
 

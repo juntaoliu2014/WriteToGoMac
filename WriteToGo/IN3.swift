@@ -63,19 +63,6 @@ class InputName3: NSViewController
         }
     }
     
-  
-    
-    @IBAction func ShowPerW(_ sender: NSButton)
-    {
-        NSLog ("before dismiss")
-        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowPerW"), sender: self)
-    }
-    
-    @IBAction func ShowMain(_ sender: NSButton)
-    {
-        NSLog ("before dismiss")
-        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowMain"), sender: self)
-    }
     
   
 

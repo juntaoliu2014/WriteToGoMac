@@ -11,7 +11,7 @@ import Cocoa
 class PersuasiveWM: NSViewController
 {
     
-    @IBOutlet weak var map1Text: NSScrollView!
+    @IBOutlet weak var PerWMText1: NSScrollView!
     
     
     
@@ -23,6 +23,8 @@ class PersuasiveWM: NSViewController
         readPersuasiveFile()
         //call the function when the view load
         
+        savePersuasiveFile()
+        
     }
     
     func getDocumentsDirectory() -> URL
@@ -31,34 +33,36 @@ class PersuasiveWM: NSViewController
         return paths[0]
     }
     
+    func savePersuasiveFile
+    {
+        saveString = PerWMText1.stringValue
+        let str = saveString
+        let filename = getDocumentsDirectory().appendingPathComponent("PerWMText1.txt")
+        do
+        {
+            try str.write(to: filename, atomically: true, encoding: String.Encoding.utf8)
+        }
+        catch
+        {
+            // failed to write file – bad permissions, bad filename, missing permissions, or more likely it can't be converted to the encoding
+        }
+    }
+    
     
     func readPersuasiveFile()
     {
         var readString = ""
-        let filename = getDocumentsDirectory().appendingPathComponent("MM1.txt")
+        let filename = getDocumentsDirectory().appendingPathComponent("PerWMText1.txt")
         do
         {
             readString = try String (contentsOf:filename)
-            map1Text.stringValue = readString
+            PerWMText1.stringValue = readString
             //read the information in the box named "map1Text"
         }
         catch _ as NSError
         {
             print("Read Error")
         }
-    }
-    
-    @IBOutlet weak var NextButton: NSButton!
-    
-    @IBAction func NextAction(_ sender: Any)
-    {
-        
-    }
-    @IBOutlet weak var PreviousButton: NSButton!
-    
-    @IBAction func PreviousAction(_ sender: Any)
-    {
-        
     }
     
     
