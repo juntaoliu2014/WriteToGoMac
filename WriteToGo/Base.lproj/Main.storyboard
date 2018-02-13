@@ -1414,13 +1414,23 @@ Gw
             </objects>
             <point key="canvasLocation" x="-1190" y="4744"/>
         </scene>
-        <!--View Controller-->
+        <!--Persuasive W W-->
         <scene sceneID="Wrk-y8-B2w">
             <objects>
-                <viewController id="fAP-OQ-QrS" sceneMemberID="viewController">
+                <viewController title="Persuasive W W" id="fAP-OQ-QrS" customClass="PersuasiveWW" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="nXl-fa-CqV">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PCc-Mh-TL2">
+                                <rect key="frame" x="282" y="169" width="81" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Esp-nV-t8X">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                        </subviews>
                     </view>
                 </viewController>
                 <customObject id="bWG-An-eGR" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>

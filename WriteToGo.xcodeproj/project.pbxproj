@@ -15,6 +15,7 @@
 		5714FE4B200D870C00DFBDC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5714FE4A200D870C00DFBDC1 /* Assets.xcassets */; };
 		5714FE4E200D870C00DFBDC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5714FE4C200D870C00DFBDC1 /* Main.storyboard */; };
 		577D8E8F20180F7400F2C454 /* IN3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577D8E8E20180F7400F2C454 /* IN3.swift */; };
+		5793F956202AB5F400360205 /* PersuasiveWW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5793F955202AB5F400360205 /* PersuasiveWW.swift */; };
 		57BF40B320196BDB007C25C4 /* PersuasiveW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BF40B220196BDB007C25C4 /* PersuasiveW.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		5714FE4F200D870C00DFBDC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5714FE50200D870C00DFBDC1 /* WriteToGo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WriteToGo.entitlements; sourceTree = "<group>"; };
 		577D8E8E20180F7400F2C454 /* IN3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IN3.swift; sourceTree = "<group>"; };
+		5793F955202AB5F400360205 /* PersuasiveWW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersuasiveWW.swift; sourceTree = "<group>"; };
 		57BF40B220196BDB007C25C4 /* PersuasiveW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersuasiveW.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +71,7 @@
 				5712B675202A5A44002F6968 /* PersuasiveWM.swift */,
 				577D8E8E20180F7400F2C454 /* IN3.swift */,
 				5712B671202A4A7E002F6968 /* IN2.swift */,
+				5793F955202AB5F400360205 /* PersuasiveWW.swift */,
 				5714FE48200D870C00DFBDC1 /* ViewController.swift */,
 				5714FE4A200D870C00DFBDC1 /* Assets.xcassets */,
 				5714FE4C200D870C00DFBDC1 /* Main.storyboard */,
@@ -151,6 +154,7 @@
 			files = (
 				5712B676202A5A44002F6968 /* PersuasiveWM.swift in Sources */,
 				5714FE49200D870C00DFBDC1 /* ViewController.swift in Sources */,
+				5793F956202AB5F400360205 /* PersuasiveWW.swift in Sources */,
 				57BF40B320196BDB007C25C4 /* PersuasiveW.swift in Sources */,
 				577D8E8F20180F7400F2C454 /* IN3.swift in Sources */,
 				5712B672202A4A7E002F6968 /* IN2.swift in Sources */,
