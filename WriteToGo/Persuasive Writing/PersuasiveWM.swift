@@ -11,19 +11,19 @@ import Cocoa
 class PersuasiveWM: NSViewController
 {
     
-    @IBOutlet weak var PerWMText1: NSScrollView!
-    
-    
+
+    @IBOutlet weak var MMBox1: NSTextField!
+ 
+    var saveString = "Temp"
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
         // Do view setup here.
         
-        readPersuasiveFile()
+        readMMBox1File()
         //call the function when the view load
         
-        savePersuasiveFile()
         
     }
     
@@ -33,11 +33,11 @@ class PersuasiveWM: NSViewController
         return paths[0]
     }
     
-    func savePersuasiveFile
+    func saveMMBox1File()
     {
-        saveString = PerWMText1.stringValue
+        saveString = MMBox1.stringValue
         let str = saveString
-        let filename = getDocumentsDirectory().appendingPathComponent("PerWMText1.txt")
+        let filename = getDocumentsDirectory().appendingPathComponent("MMBox1.txt")
         do
         {
             try str.write(to: filename, atomically: true, encoding: String.Encoding.utf8)
@@ -49,14 +49,14 @@ class PersuasiveWM: NSViewController
     }
     
     
-    func readPersuasiveFile()
+    func readMMBox1File()
     {
         var readString = ""
-        let filename = getDocumentsDirectory().appendingPathComponent("PerWMText1.txt")
+        let filename = getDocumentsDirectory().appendingPathComponent("MMbox1.txt")
         do
         {
             readString = try String (contentsOf:filename)
-            PerWMText1.stringValue = readString
+            MMBox1.stringValue = readString
             //read the information in the box named "map1Text"
         }
         catch _ as NSError
@@ -64,6 +64,21 @@ class PersuasiveWM: NSViewController
             print("Read Error")
         }
     }
+    
+    @IBAction func MMBox1Entry(_ sender: NSTextField)
+    {
+        saveMMBox1File()
+    }
+    
+    @IBAction func ShowPerWW(_ sender: NSButton)
+    {
+        
+        NSLog ("before dismiss")
+        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowPerWW"), sender: self)
+    }
+    
+    
+    
     
     
     

@@ -11,7 +11,12 @@ import Cocoa
 class PersuasiveWE: NSViewController
 {
     
-    
+    @IBAction func ShowPerWM(_ sender: NSButton)
+    {
+        
+        NSLog ("before dismiss")
+        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowPerWM"), sender: self)
+    }
     
     
     override func viewDidLoad()
@@ -20,15 +25,7 @@ class PersuasiveWE: NSViewController
         // Do view setup here.
     }
     
-    @IBOutlet weak var NextButton: NSButton!
     
-    @IBAction func NextAction(_ sender: Any) {
-    }
-    
-    @IBOutlet weak var PreviousButton: NSButton!
-    
-    @IBAction func PreviousAction(_ sender: Any) {
-    }
     
     
     

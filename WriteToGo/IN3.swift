@@ -6,6 +6,7 @@
 //  Copyright © 2018 Julie Liu. All rights reserved.
 //
 
+/*
 import Cocoa
 
 class InputName3: NSViewController
@@ -72,4 +73,4 @@ class InputName3: NSViewController
 
 
 
-
+ */

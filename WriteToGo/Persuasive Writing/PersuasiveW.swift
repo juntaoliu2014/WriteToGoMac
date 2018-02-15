@@ -12,7 +12,12 @@ class PersuasiveW: NSViewController
 {
 
     
-    
+    @IBAction func ShowPerWE(_ sender: NSButton)
+    {
+        
+        NSLog ("before dismiss")
+        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowPerWE"), sender: self)
+    }
     
     override func viewDidLoad()
     {
@@ -20,6 +25,10 @@ class PersuasiveW: NSViewController
         // Do view setup here.
     }
     
+    override func prepare(for segue: NSStoryboardSegue, sender: Any?)
+    {
+        self.view.window?.close()
+    }
 
     
     
