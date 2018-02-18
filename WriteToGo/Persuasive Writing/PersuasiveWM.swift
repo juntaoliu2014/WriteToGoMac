@@ -551,7 +551,7 @@ class PersuasiveWM: NSViewController
     {
         saveMMBox13File()
     }
-    @IBAction func MMBox14(_ sender: NSTextField)
+    @IBAction func MMBox14Entry(_ sender: NSTextField)
     {
         saveMMBox14File()
     }
