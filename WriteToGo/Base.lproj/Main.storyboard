@@ -920,6 +920,9 @@
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
+                                <connections>
+                                    <action selector="MMBox2Entry:" target="wjl-rQ-2kU" id="wDi-4S-fwO"/>
+                                </connections>
                             </textField>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k2K-4P-Nyr" userLabel="MMBox3">
                                 <rect key="frame" x="317" y="317" width="157" height="101"/>
@@ -929,6 +932,9 @@
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
+                                <connections>
+                                    <action selector="MMBox3Entry:" target="wjl-rQ-2kU" id="ZDi-dY-mbc"/>
+                                </connections>
                             </textField>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KZN-hS-ldJ" userLabel="MMBox4">
                                 <rect key="frame" x="317" y="178" width="157" height="101"/>
@@ -938,6 +944,9 @@
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
+                                <connections>
+                                    <action selector="MMBox4Entry:" target="wjl-rQ-2kU" id="Di7-8I-0QG"/>
+                                </connections>
                             </textField>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tAN-34-8G6" userLabel="MMBox5">
                                 <rect key="frame" x="527" y="535" width="225" height="29"/>
@@ -947,6 +956,9 @@
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
+                                <connections>
+                                    <action selector="MMBox5Entry:" target="wjl-rQ-2kU" id="N1B-eq-iD1"/>
+                                </connections>
                             </textField>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4M8-dh-TU5" userLabel="MMBox6">
                                 <rect key="frame" x="527" y="494" width="225" height="29"/>
@@ -956,6 +968,9 @@
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
+                                <connections>
+                                    <action selector="MMBox6Entry:" target="wjl-rQ-2kU" id="3wE-Fp-UTq"/>
+                                </connections>
                             </textField>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QYP-cj-trL" userLabel="MMBox7">
                                 <rect key="frame" x="527" y="453" width="225" height="29"/>
@@ -965,6 +980,9 @@
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
+                                <connections>
+                                    <action selector="MMBox7Entry:" target="wjl-rQ-2kU" id="1Vx-Im-0Yq"/>
+                                </connections>
                             </textField>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="11J-jv-U1m" userLabel="MMBox8">
                                 <rect key="frame" x="527" y="391" width="225" height="29"/>
@@ -974,6 +992,9 @@
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
+                                <connections>
+                                    <action selector="MMBox8Entry:" target="wjl-rQ-2kU" id="byd-bl-bmX"/>
+                                </connections>
                             </textField>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rwC-iJ-YN3" userLabel="MMBox9">
                                 <rect key="frame" x="527" y="350" width="225" height="29"/>
@@ -983,6 +1004,9 @@
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
+                                <connections>
+                                    <action selector="MMBox9Entry:" target="wjl-rQ-2kU" id="abl-0h-1Aj"/>
+                                </connections>
                             </textField>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JX8-nD-TdO" userLabel="MMBox10">
                                 <rect key="frame" x="527" y="310" width="225" height="29"/>
@@ -992,6 +1016,9 @@
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
+                                <connections>
+                                    <action selector="MMBox10Entry:" target="wjl-rQ-2kU" id="wIN-KQ-kis"/>
+                                </connections>
                             </textField>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fZa-aL-wPe" userLabel="MMBox11">
                                 <rect key="frame" x="527" y="251" width="225" height="29"/>
@@ -1001,6 +1028,9 @@
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
+                                <connections>
+                                    <action selector="MMBox11Entry:" target="wjl-rQ-2kU" id="eZR-eG-JQm"/>
+                                </connections>
                             </textField>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ar0-cj-2s0" userLabel="MMBox12">
                                 <rect key="frame" x="527" y="211" width="225" height="29"/>
@@ -1010,6 +1040,9 @@
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
+                                <connections>
+                                    <action selector="MMBox12Entry:" target="wjl-rQ-2kU" id="nuW-tK-8KU"/>
+                                </connections>
                             </textField>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PUr-Gt-28Y" userLabel="MMBox13">
                                 <rect key="frame" x="527" y="171" width="225" height="29"/>
@@ -1019,6 +1052,9 @@
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
+                                <connections>
+                                    <action selector="MMBox13Entry:" target="wjl-rQ-2kU" id="xpK-e5-jLW"/>
+                                </connections>
                             </textField>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Law-de-hqr" userLabel="MMBox14">
                                 <rect key="frame" x="806" y="275" width="131" height="168"/>
@@ -1028,6 +1064,9 @@
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
+                                <connections>
+                                    <action selector="MMBox14:" target="wjl-rQ-2kU" id="2dH-78-BDF"/>
+                                </connections>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CzH-Qc-i3Q">
                                 <rect key="frame" x="123" y="594" width="232" height="17"/>
@@ -1042,6 +1081,19 @@
                     </view>
                     <connections>
                         <outlet property="MMBox1" destination="Hca-yK-Hrg" id="v3h-O2-kO0"/>
+                        <outlet property="MMBox10" destination="JX8-nD-TdO" id="vKH-AP-6Z6"/>
+                        <outlet property="MMBox11" destination="fZa-aL-wPe" id="dIF-NV-9Nd"/>
+                        <outlet property="MMBox12" destination="Ar0-cj-2s0" id="I9G-z3-p4Q"/>
+                        <outlet property="MMBox13" destination="PUr-Gt-28Y" id="Wah-e4-d8s"/>
+                        <outlet property="MMBox14" destination="Law-de-hqr" id="Ard-fb-aPI"/>
+                        <outlet property="MMBox2" destination="Fy8-Bi-A4S" id="wAV-l1-dBz"/>
+                        <outlet property="MMBox3" destination="k2K-4P-Nyr" id="GAX-gc-aD1"/>
+                        <outlet property="MMBox4" destination="KZN-hS-ldJ" id="c2t-CU-dLa"/>
+                        <outlet property="MMBox5" destination="tAN-34-8G6" id="YpN-af-Vyp"/>
+                        <outlet property="MMBox6" destination="4M8-dh-TU5" id="Vjc-tu-PkZ"/>
+                        <outlet property="MMBox7" destination="QYP-cj-trL" id="5eb-pp-ScY"/>
+                        <outlet property="MMBox8" destination="11J-jv-U1m" id="CjT-X6-gxa"/>
+                        <outlet property="MMBox9" destination="rwC-iJ-YN3" id="ZBA-oo-56s"/>
                         <segue destination="fAP-OQ-QrS" kind="show" identifier="ShowPerWW" id="Lkf-Vw-5Pq"/>
                     </connections>
                 </viewController>
