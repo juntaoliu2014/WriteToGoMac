@@ -1,21 +1,22 @@
 //
-//  PersuasiveWE.swift
+//  ComparativeWE.swift
 //  WriteToGo
 //
-//  Created by Julie Liu on 2/7/18.
+//  Created by Julie Liu on 2/25/18.
 //  Copyright © 2018 Julie Liu. All rights reserved.
 //
 
 import Cocoa
 
-class PersuasiveWE: NSViewController
+class ComparativeWE: NSViewController
 {
     
-    @IBAction func ShowPerWM(_ sender: NSButton)
+    
+    @IBAction func ShowComMM(_ sender: NSButton)
     {
         
         NSLog ("before dismiss")
-        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowPerWM"), sender: self)
+        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowComMM"), sender: self)
     }
     
     

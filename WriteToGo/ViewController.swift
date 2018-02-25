@@ -16,11 +16,6 @@ class ViewController: NSViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBOutlet weak var AppLabel: NSTextField!
-  
-    @IBOutlet weak var OpenPer: NSButton!
-    
-    
 
     
     
@@ -32,10 +27,19 @@ class ViewController: NSViewController {
         performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowPer"), sender: self)
     }
     
-
-    
-    
-
+    @IBAction func ShowPro(_ sender: NSButton)
+    {
+        
+        NSLog ("before dismiss")
+        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowPro"), sender: self)
+    }
+  
+    @IBAction func ShowCom(_ sender: NSButton)
+    {
+        
+        NSLog ("before dismiss")
+        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowCom"), sender: self)
+    }
     
     override var representedObject: Any? {
         didSet {

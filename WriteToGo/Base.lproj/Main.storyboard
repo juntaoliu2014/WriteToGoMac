@@ -715,12 +715,12 @@
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Main Screen" id="Dqd-50-mtl"/>
                             </imageView>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r09-hG-F5N" userLabel="Procedual Image">
-                                <rect key="frame" x="611" y="321" width="203" height="269"/>
+                                <rect key="frame" x="470" y="438" width="153" height="201"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Procedual Image" id="NcB-BM-5hE"/>
                             </imageView>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HHu-bR-b7g">
-                                <rect key="frame" x="639" y="272" width="146" height="32"/>
+                                <rect key="frame" x="473" y="401" width="146" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Procedural Writing" id="TeA-HG-7wE">
                                     <font key="font" size="16" name="ComicSansMS"/>
@@ -729,23 +729,23 @@
                                 </textFieldCell>
                             </textField>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eQr-WO-VLQ" userLabel="Open Pro">
-                                <rect key="frame" x="666" y="227" width="92" height="32"/>
+                                <rect key="frame" x="500" y="360" width="92" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="push" title="Open" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ial-VY-hk0">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="ShowPer:" target="XfG-lQ-9wD" id="xWQ-Sz-CBj"/>
+                                    <action selector="ShowPro:" target="XfG-lQ-9wD" id="fSp-d4-Xfm"/>
                                 </connections>
                             </button>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F7S-fV-6wy" userLabel="Persuasive Image">
-                                <rect key="frame" x="307" y="312" width="203" height="288"/>
+                                <rect key="frame" x="217" y="438" width="149" height="201"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Persuassive Image" id="Ubz-Po-2KO"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Persuasive W 1" id="Ubz-Po-2KO"/>
                             </imageView>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xDG-p4-Kab">
-                                <rect key="frame" x="336" y="270" width="145" height="34"/>
+                                <rect key="frame" x="219" y="396" width="145" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Persuasive Writing" id="gJY-Wr-aVi">
                                     <font key="font" size="16" name="ComicSansMS"/>
@@ -754,7 +754,7 @@
                                 </textFieldCell>
                             </textField>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jea-Bb-bJu" userLabel="Open Per">
-                                <rect key="frame" x="362" y="227" width="92" height="32"/>
+                                <rect key="frame" x="245" y="360" width="92" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="push" title="Open" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="nRo-ex-grm">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -769,16 +769,391 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Icon" id="Uh0-7F-YUT"/>
                             </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FKx-q0-HY6">
+                                <rect key="frame" x="721" y="438" width="145" height="201"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Comparative W1" id="g1x-uN-Yko"/>
+                            </imageView>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WvS-F0-Tff">
+                                <rect key="frame" x="714" y="401" width="159" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Comparative Writing" id="TNe-zP-z5c">
+                                    <font key="font" size="16" name="ComicSansMS"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r77-MM-kAe" userLabel="Open Pro">
+                                <rect key="frame" x="747" y="360" width="92" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Open" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="U5W-hJ-AEJ">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ShowCom:" target="XfG-lQ-9wD" id="lhL-9G-XvW"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
                         <outlet property="OpenPer" destination="Jea-Bb-bJu" id="Lr9-Ju-pyC"/>
                         <segue destination="isg-Ad-ayz" kind="show" identifier="ShowPer" id="YeS-5O-esQ"/>
+                        <segue destination="CTu-AW-3iL" kind="show" identifier="ShowPro" id="yCM-ZE-2i0"/>
+                        <segue destination="dOq-UO-8nF" kind="show" identifier="ShowCom" id="vJt-Jd-gG3"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-123" y="2128"/>
+        </scene>
+        <!--Procedual W-->
+        <scene sceneID="bT4-Yb-wjh">
+            <objects>
+                <viewController title="Procedual W" id="CTu-AW-3iL" customClass="ProceduralW" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="0Kh-qP-Day">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Bb-3E-V43">
+                                <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Procedual W1" id="6GW-Np-qjG"/>
+                            </imageView>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xsA-fB-ml8">
+                                <rect key="frame" x="874" y="693" width="83" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Next" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="h4C-po-NL3">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ShowProWE:" target="CTu-AW-3iL" id="rhT-n4-G1v"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <segue destination="Qiz-Nj-0a1" kind="show" identifier="ShowProWE" id="OmF-BP-399"/>
+                    </connections>
+                </viewController>
+                <customObject id="7zc-24-5Ti" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-156" y="3023"/>
+        </scene>
+        <!--Comparative W-->
+        <scene sceneID="sf1-kz-I4B">
+            <objects>
+                <viewController id="dOq-UO-8nF" userLabel="Comparative W" customClass="ComparativeW" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="TJZ-xc-gVU" userLabel="Comparative W">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nxj-6g-cxf">
+                                <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Comparative W2" id="Y6P-mt-fkK"/>
+                            </imageView>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SPl-dh-Jfd">
+                                <rect key="frame" x="874" y="693" width="83" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Next" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="FUf-lh-LCj">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ShowComWE:" target="dOq-UO-8nF" id="ANX-cQ-xqa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <segue destination="lfC-yL-Dz1" kind="show" identifier="ShowComWE" id="zg4-lJ-pBJ"/>
+                    </connections>
+                </viewController>
+                <customObject id="8Np-kn-pUD" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="881" y="3023"/>
+        </scene>
+        <!--Comparative WE-->
+        <scene sceneID="sfr-u9-JyT">
+            <objects>
+                <viewController id="lfC-yL-Dz1" userLabel="Comparative WE" customClass="ComparativeWE" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="6kP-JI-7Fl">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xdp-yZ-SqO">
+                                <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Comparative W3" id="FHl-91-lgm"/>
+                            </imageView>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I4j-X8-Qdf">
+                                <rect key="frame" x="874" y="693" width="83" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Next" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="af8-fe-4SQ">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ShowComMM:" target="lfC-yL-Dz1" id="QAH-Pq-ZTz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <segue destination="PJZ-MN-De1" kind="show" identifier="ShowComWM" id="3YY-GW-p5g"/>
+                    </connections>
+                </viewController>
+                <customObject id="ijD-W2-pL8" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="881" y="3892"/>
+        </scene>
+        <!--Comparative WM-->
+        <scene sceneID="qV1-XS-aZo">
+            <objects>
+                <viewController id="PJZ-MN-De1" userLabel="Comparative WM" customClass="ComparativeWM" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="FcF-sS-24p">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3ph-h4-DUU">
+                                <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Comparative W4" id="TWF-cI-JBP"/>
+                            </imageView>
+                        </subviews>
+                    </view>
+                </viewController>
+                <customObject id="hGe-IJ-Qdd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="881" y="4769"/>
+        </scene>
+        <!--Procedual WE-->
+        <scene sceneID="9c8-bS-MuC">
+            <objects>
+                <viewController title="Procedual WE" id="Qiz-Nj-0a1" customClass="ProceduralWE" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="M9U-1j-rot">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="45l-GQ-YHh">
+                                <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Procedual W2" id="gbr-So-gyd"/>
+                            </imageView>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="utB-xR-ySd">
+                                <rect key="frame" x="874" y="693" width="83" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Next" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="QGA-ni-7Aq">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ShowProMM:" target="Qiz-Nj-0a1" id="gFo-QL-ecz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <segue destination="PgN-j1-hCP" kind="show" identifier="ShowProMM" id="Df0-W9-mNj"/>
+                    </connections>
+                </viewController>
+                <customObject id="Yvz-G2-Cmm" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-156" y="3892"/>
+        </scene>
+        <!--Procedual WM-->
+        <scene sceneID="jEH-kf-3nR">
+            <objects>
+                <viewController title="Procedual WM" id="PgN-j1-hCP" customClass="ProceduralWM" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="sJh-Yg-KFc">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KOM-TQ-4iq">
+                                <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Procedual W3" id="2bi-bg-7Y7"/>
+                            </imageView>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2mI-ae-Tus" userLabel="PMMBox1">
+                                <rect key="frame" x="100" y="329" width="153" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="Goal" drawsBackground="YES" id="4cJ-zA-9cd">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="PMMBox1Entry:" target="PgN-j1-hCP" id="Mr0-3N-Yxr"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HFn-EE-wXa" userLabel="PMMBox2">
+                                <rect key="frame" x="211" y="499" width="153" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="Materials Needed" drawsBackground="YES" id="3XK-GZ-Pbw">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="PMMBox2Entry:" target="PgN-j1-hCP" id="fZb-Cw-E3z"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TOc-SU-XC5" userLabel="PMMBox3">
+                                <rect key="frame" x="399" y="515" width="153" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="Steps or Numbers" drawsBackground="YES" id="HCy-Vb-PiC">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="PMMBox3Entry:" target="PgN-j1-hCP" id="N0R-Ku-wTv"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GRG-fw-gUH" userLabel="PMMBox4">
+                                <rect key="frame" x="614" y="499" width="153" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="Safety Rules" drawsBackground="YES" id="uFs-PY-ZHt">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="PMMBox4Entry:" target="PgN-j1-hCP" id="4fK-o6-TTo"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pkb-lw-Uo2" userLabel="PMMBox5">
+                                <rect key="frame" x="740" y="329" width="153" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="Use Present Tense" drawsBackground="YES" id="2hL-nz-vmO">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="PMMBox5Entry:" target="PgN-j1-hCP" id="1lN-0x-HfY"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IJT-cR-8rE" userLabel="PMMBox6">
+                                <rect key="frame" x="614" y="155" width="153" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="Headings and Subheadings" drawsBackground="YES" id="o0T-vL-PFq">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="PMMBox6Entry:" target="PgN-j1-hCP" id="bC4-Fv-6Yc"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oCT-vi-VIc" userLabel="PMMBox7">
+                                <rect key="frame" x="399" y="155" width="153" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="Other Words (First, Next, Then, Last)" drawsBackground="YES" id="bjc-VZ-QrL">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="PMMBox7Entry:" target="PgN-j1-hCP" id="Lxi-Rs-EA5"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bOR-CV-J8B" userLabel="PMMBox8">
+                                <rect key="frame" x="211" y="155" width="153" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="Action verbs" drawsBackground="YES" id="rKx-uX-HTk">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="PMMBox8Entry:" target="PgN-j1-hCP" id="nP3-eH-jfQ"/>
+                                </connections>
+                            </textField>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EjG-AK-s2j">
+                                <rect key="frame" x="874" y="693" width="83" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Next" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="eol-aW-vu9">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ShowProWW:" target="PgN-j1-hCP" id="uAb-C5-V0N"/>
+                                </connections>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Riw-R9-3xi" userLabel="Instruction">
+                                <rect key="frame" x="124" y="621" width="264" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="border" title="Please press Enter or Tab after typing!" id="wyz-eZ-OfM">
+                                    <font key="font" size="14" name="ComicSansMS"/>
+                                    <color key="textColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="PMMBox1" destination="2mI-ae-Tus" id="jhA-YT-zYF"/>
+                        <outlet property="PMMBox2" destination="HFn-EE-wXa" id="RDo-N9-HS4"/>
+                        <outlet property="PMMBox3" destination="TOc-SU-XC5" id="sRg-NQ-HQV"/>
+                        <outlet property="PMMBox4" destination="GRG-fw-gUH" id="BNK-8U-Y49"/>
+                        <outlet property="PMMBox5" destination="Pkb-lw-Uo2" id="V7h-3K-Ska"/>
+                        <outlet property="PMMBox6" destination="IJT-cR-8rE" id="dyf-k8-jM3"/>
+                        <outlet property="PMMBox7" destination="oCT-vi-VIc" id="d19-t9-ieV"/>
+                        <outlet property="PMMBox8" destination="bOR-CV-J8B" id="Sa7-zi-rnG"/>
+                        <segue destination="gdw-bf-sb5" kind="show" identifier="ShowProWW" id="Ain-qs-src"/>
+                    </connections>
+                </viewController>
+                <customObject id="fKO-v3-eky" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-156" y="4769"/>
+        </scene>
+        <!--Procedual WW-->
+        <scene sceneID="voA-ZW-QGj">
+            <objects>
+                <viewController id="gdw-bf-sb5" userLabel="Procedual WW" customClass="ProceduralWW" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="FGY-zG-739">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CId-FD-Xi8" userLabel="Icon">
+                                <rect key="frame" x="352" y="657" width="296" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Icon" id="EOd-9D-ovq"/>
+                            </imageView>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3hS-BW-3PK" userLabel="Instruction">
+                                <rect key="frame" x="138" y="595" width="725" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" borderStyle="border" id="WQ8-MP-8ce">
+                                    <font key="font" size="16" name="ComicSansMS"/>
+                                    <string key="title">Now start writing your own essay. You can refer back to the example essay and your mind map. Remember to push Enter or Tab after typing!</string>
+                                    <color key="textColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a4B-8z-75j" userLabel="WWBox1">
+                                <rect key="frame" x="20" y="20" width="960" height="566"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="aMR-VW-IxD">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="PWWBox1Entry:" target="gdw-bf-sb5" id="1fE-YB-vwh"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="PWWBox1" destination="a4B-8z-75j" id="ABw-gn-J4g"/>
+                    </connections>
+                </viewController>
+                <customObject id="Onr-ni-1my" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-156" y="5653"/>
         </scene>
         <!--Persuasive W-->
         <scene sceneID="Lhg-ot-pfv">
@@ -853,21 +1228,21 @@
             <objects>
                 <viewController title="Persuasive W Mind Map" id="wjl-rQ-2kU" customClass="PersuasiveWM" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="nda-8U-EXo">
-                        <rect key="frame" x="0.0" y="0.0" width="1000" height="700"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aPE-u4-Ooz" userLabel="Background">
-                                <rect key="frame" x="-20" y="-29" width="1028" height="759"/>
+                                <rect key="frame" x="-20" y="-20" width="1020" height="800"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Mind Map Pic" id="xJm-yz-Vqu"/>
                             </imageView>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2ot-3x-21Y" userLabel="Background 2">
-                                <rect key="frame" x="122" y="26" width="836" height="647"/>
+                                <rect key="frame" x="122" y="76" width="836" height="647"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Persuasive W 5" id="DW4-0r-WmB"/>
                             </imageView>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hbJ-mD-irJ">
-                                <rect key="frame" x="866" y="643" width="83" height="32"/>
+                                <rect key="frame" x="866" y="693" width="83" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="push" title="Next" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="uyM-OU-ZeL">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -877,152 +1252,152 @@
                                     <action selector="ShowPerWW:" target="wjl-rQ-2kU" id="foi-Rc-OoR"/>
                                 </connections>
                             </button>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hca-yK-Hrg" userLabel="MMBox1">
-                                <rect key="frame" x="137" y="275" width="131" height="168"/>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OEz-be-BPe" userLabel="MMBox1">
+                                <rect key="frame" x="137" y="325" width="131" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="I1w-wD-x44">
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="kGG-gg-RjQ">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                                 <connections>
-                                    <action selector="MMBox1Entry:" target="wjl-rQ-2kU" id="W8D-Sk-y6D"/>
+                                    <action selector="MMBox1Entry:" target="wjl-rQ-2kU" id="PU9-T6-H5D"/>
                                 </connections>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fy8-Bi-A4S" userLabel="MMBox2">
-                                <rect key="frame" x="317" y="458" width="157" height="101"/>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L7n-Hu-jfU" userLabel="MMBox2">
+                                <rect key="frame" x="317" y="508" width="157" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="M8g-yA-oBx">
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="7zl-ii-fWF">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                                 <connections>
-                                    <action selector="MMBox2Entry:" target="wjl-rQ-2kU" id="wDi-4S-fwO"/>
+                                    <action selector="MMBox2Entry:" target="wjl-rQ-2kU" id="xRB-Ni-weL"/>
                                 </connections>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k2K-4P-Nyr" userLabel="MMBox3">
-                                <rect key="frame" x="317" y="317" width="157" height="101"/>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ra1-rE-dkU" userLabel="MMBox3">
+                                <rect key="frame" x="317" y="367" width="157" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="Drw-DT-ywZ">
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="luA-dJ-XML">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                                 <connections>
-                                    <action selector="MMBox3Entry:" target="wjl-rQ-2kU" id="ZDi-dY-mbc"/>
+                                    <action selector="MMBox3Entry:" target="wjl-rQ-2kU" id="vBu-wC-eFB"/>
                                 </connections>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KZN-hS-ldJ" userLabel="MMBox4">
-                                <rect key="frame" x="317" y="178" width="157" height="101"/>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="79L-iP-aSm" userLabel="MMBox4">
+                                <rect key="frame" x="317" y="228" width="157" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="YM1-wE-YGj">
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="obu-dg-1sp">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                                 <connections>
-                                    <action selector="MMBox4Entry:" target="wjl-rQ-2kU" id="Di7-8I-0QG"/>
+                                    <action selector="MMBox4Entry:" target="wjl-rQ-2kU" id="0RW-0i-abQ"/>
                                 </connections>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tAN-34-8G6" userLabel="MMBox5">
-                                <rect key="frame" x="527" y="535" width="225" height="29"/>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3ol-w8-l1b" userLabel="MMBox5">
+                                <rect key="frame" x="527" y="585" width="225" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="fP8-7a-eEe">
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="QNj-yr-Fu6">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                                 <connections>
-                                    <action selector="MMBox5Entry:" target="wjl-rQ-2kU" id="N1B-eq-iD1"/>
+                                    <action selector="MMBox5Entry:" target="wjl-rQ-2kU" id="82g-7i-Mb8"/>
                                 </connections>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4M8-dh-TU5" userLabel="MMBox6">
-                                <rect key="frame" x="527" y="494" width="225" height="29"/>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MXc-tb-Jcj" userLabel="MMBox6">
+                                <rect key="frame" x="527" y="544" width="225" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="8dL-wF-zLy">
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="TSk-tu-NUE">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                                 <connections>
-                                    <action selector="MMBox6Entry:" target="wjl-rQ-2kU" id="3wE-Fp-UTq"/>
+                                    <action selector="MMBox6Entry:" target="wjl-rQ-2kU" id="ft3-3j-eaD"/>
                                 </connections>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QYP-cj-trL" userLabel="MMBox7">
-                                <rect key="frame" x="527" y="453" width="225" height="29"/>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="feU-kB-SdO" userLabel="MMBox7">
+                                <rect key="frame" x="527" y="503" width="225" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="4fG-I5-8jY">
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="TXx-Se-1xN">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                                 <connections>
-                                    <action selector="MMBox7Entry:" target="wjl-rQ-2kU" id="1Vx-Im-0Yq"/>
+                                    <action selector="MMBox7Entry:" target="wjl-rQ-2kU" id="qet-pf-reO"/>
                                 </connections>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="11J-jv-U1m" userLabel="MMBox8">
-                                <rect key="frame" x="527" y="391" width="225" height="29"/>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fwJ-OM-fPh" userLabel="MMBox8">
+                                <rect key="frame" x="527" y="441" width="225" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="8wE-As-jeV">
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="WZk-we-BNF">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                                 <connections>
-                                    <action selector="MMBox8Entry:" target="wjl-rQ-2kU" id="byd-bl-bmX"/>
+                                    <action selector="MMBox8Entry:" target="wjl-rQ-2kU" id="zZ0-St-UBK"/>
                                 </connections>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rwC-iJ-YN3" userLabel="MMBox9">
-                                <rect key="frame" x="527" y="350" width="225" height="29"/>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="foN-Om-fop" userLabel="MMBox9">
+                                <rect key="frame" x="527" y="400" width="225" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="MqZ-uo-9dJ">
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="sTF-7a-NPN">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                                 <connections>
-                                    <action selector="MMBox9Entry:" target="wjl-rQ-2kU" id="abl-0h-1Aj"/>
+                                    <action selector="MMBox9Entry:" target="wjl-rQ-2kU" id="YJr-As-MUi"/>
                                 </connections>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JX8-nD-TdO" userLabel="MMBox10">
-                                <rect key="frame" x="527" y="310" width="225" height="29"/>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o8T-pi-Ez9" userLabel="MMBox10">
+                                <rect key="frame" x="527" y="360" width="225" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="Lx1-S0-fYr">
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="YFJ-wR-mOk">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                                 <connections>
-                                    <action selector="MMBox10Entry:" target="wjl-rQ-2kU" id="wIN-KQ-kis"/>
+                                    <action selector="MMBox10Entry:" target="wjl-rQ-2kU" id="ABj-E6-6rZ"/>
                                 </connections>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fZa-aL-wPe" userLabel="MMBox11">
-                                <rect key="frame" x="527" y="251" width="225" height="29"/>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j5i-4Y-6fi" userLabel="MMBox11">
+                                <rect key="frame" x="527" y="301" width="225" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="A7X-YV-8Ve">
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="R6z-KI-BwG">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                                 <connections>
-                                    <action selector="MMBox11Entry:" target="wjl-rQ-2kU" id="eZR-eG-JQm"/>
+                                    <action selector="MMBox11Entry:" target="wjl-rQ-2kU" id="nNo-2D-InL"/>
                                 </connections>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ar0-cj-2s0" userLabel="MMBox12">
-                                <rect key="frame" x="527" y="211" width="225" height="29"/>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cHZ-jw-GCv" userLabel="MMBox12">
+                                <rect key="frame" x="527" y="260" width="225" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="F29-Ky-6jC">
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="pqa-Jn-jWB">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                                 <connections>
-                                    <action selector="MMBox12Entry:" target="wjl-rQ-2kU" id="nuW-tK-8KU"/>
+                                    <action selector="MMBox12Entry:" target="wjl-rQ-2kU" id="ibX-Q4-m0Q"/>
                                 </connections>
                             </textField>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PUr-Gt-28Y" userLabel="MMBox13">
-                                <rect key="frame" x="527" y="171" width="225" height="29"/>
+                                <rect key="frame" x="527" y="221" width="225" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="ymZ-k7-gTU">
                                     <font key="font" metaFont="system"/>
@@ -1033,22 +1408,22 @@
                                     <action selector="MMBox13Entry:" target="wjl-rQ-2kU" id="xpK-e5-jLW"/>
                                 </connections>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Law-de-hqr" userLabel="MMBox14">
-                                <rect key="frame" x="806" y="275" width="131" height="168"/>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZEf-WX-5rQ" userLabel="MMBox14">
+                                <rect key="frame" x="807" y="325" width="131" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="wMy-dq-L0H">
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="31X-fe-h0U">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                                 <connections>
-                                    <action selector="MMBox14Entry:" target="wjl-rQ-2kU" id="35a-AR-oqk"/>
+                                    <action selector="MMBox14Entry:" target="wjl-rQ-2kU" id="nwB-Sl-D1N"/>
                                 </connections>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CzH-Qc-i3Q" userLabel="Instruction">
-                                <rect key="frame" x="148" y="584" width="259" height="24"/>
+                                <rect key="frame" x="148" y="634" width="264" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="border" title="Please push Enter or Tab after typing!" id="q4c-fv-4tc">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="border" title="Please press Enter or Tab after typing!" id="q4c-fv-4tc">
                                     <font key="font" size="14" name="ComicSansMS"/>
                                     <color key="textColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -1057,75 +1432,88 @@
                         </subviews>
                     </view>
                     <connections>
-                        <outlet property="MMBox1" destination="Hca-yK-Hrg" id="v3h-O2-kO0"/>
-                        <outlet property="MMBox10" destination="JX8-nD-TdO" id="vKH-AP-6Z6"/>
-                        <outlet property="MMBox11" destination="fZa-aL-wPe" id="dIF-NV-9Nd"/>
-                        <outlet property="MMBox12" destination="Ar0-cj-2s0" id="I9G-z3-p4Q"/>
+                        <outlet property="MMBox1" destination="OEz-be-BPe" id="oT1-hc-2wK"/>
+                        <outlet property="MMBox10" destination="o8T-pi-Ez9" id="fpw-pZ-RI3"/>
+                        <outlet property="MMBox11" destination="j5i-4Y-6fi" id="ii4-dU-uIq"/>
+                        <outlet property="MMBox12" destination="cHZ-jw-GCv" id="Wx1-BG-wVC"/>
                         <outlet property="MMBox13" destination="PUr-Gt-28Y" id="Wah-e4-d8s"/>
-                        <outlet property="MMBox14" destination="Law-de-hqr" id="Ard-fb-aPI"/>
-                        <outlet property="MMBox2" destination="Fy8-Bi-A4S" id="wAV-l1-dBz"/>
-                        <outlet property="MMBox3" destination="k2K-4P-Nyr" id="GAX-gc-aD1"/>
-                        <outlet property="MMBox4" destination="KZN-hS-ldJ" id="c2t-CU-dLa"/>
-                        <outlet property="MMBox5" destination="tAN-34-8G6" id="YpN-af-Vyp"/>
-                        <outlet property="MMBox6" destination="4M8-dh-TU5" id="Vjc-tu-PkZ"/>
-                        <outlet property="MMBox7" destination="QYP-cj-trL" id="5eb-pp-ScY"/>
-                        <outlet property="MMBox8" destination="11J-jv-U1m" id="CjT-X6-gxa"/>
-                        <outlet property="MMBox9" destination="rwC-iJ-YN3" id="ZBA-oo-56s"/>
+                        <outlet property="MMBox14" destination="ZEf-WX-5rQ" id="5fc-go-pTA"/>
+                        <outlet property="MMBox2" destination="L7n-Hu-jfU" id="P0K-Pd-fKk"/>
+                        <outlet property="MMBox3" destination="ra1-rE-dkU" id="hvg-V9-qXw"/>
+                        <outlet property="MMBox4" destination="79L-iP-aSm" id="e6t-5D-h01"/>
+                        <outlet property="MMBox5" destination="3ol-w8-l1b" id="6uS-WY-eXh"/>
+                        <outlet property="MMBox6" destination="MXc-tb-Jcj" id="ogj-F8-vGu"/>
+                        <outlet property="MMBox7" destination="feU-kB-SdO" id="Bfx-jJ-wiY"/>
+                        <outlet property="MMBox8" destination="fwJ-OM-fPh" id="RjI-0q-YCj"/>
+                        <outlet property="MMBox9" destination="foN-Om-fop" id="woL-1F-Hro"/>
                         <segue destination="fAP-OQ-QrS" kind="show" identifier="ShowPerWW" id="Lkf-Vw-5Pq"/>
                     </connections>
                 </viewController>
                 <customObject id="s1f-Y4-2V3" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1190" y="4744"/>
+            <point key="canvasLocation" x="-1190" y="4769"/>
         </scene>
         <!--Persuasive W W-->
         <scene sceneID="Wrk-y8-B2w">
             <objects>
                 <viewController title="Persuasive W W" id="fAP-OQ-QrS" customClass="PersuasiveWW" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="nXl-fa-CqV">
-                        <rect key="frame" x="0.0" y="0.0" width="1000" height="700"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AZV-BZ-eCb" userLabel="Insert Writing">
-                                <rect key="frame" x="20" y="20" width="960" height="516"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="0ux-xG-h9y">
-                                    <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ozT-Fi-sYh" userLabel="Icon">
-                                <rect key="frame" x="352" y="607" width="296" height="93"/>
+                                <rect key="frame" x="352" y="657" width="296" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Icon" id="h8J-G9-OHL"/>
                             </imageView>
                             <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l8h-tD-74s" userLabel="Instruction">
-                                <rect key="frame" x="138" y="546" width="725" height="62"/>
+                                <rect key="frame" x="138" y="596" width="725" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" borderStyle="border" id="NGQ-iu-GTc">
                                     <font key="font" size="16" name="ComicSansMS"/>
-                                    <string key="title">Now start writing your own essay. You can referr back to the example essay and your mind map. Remember to push Enter or Tab after typing!</string>
+                                    <string key="title">Now start writing your own essay. You can refer back to the example essay and your mind map. Remember to push Enter or Tab after typing!</string>
                                     <color key="textColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="quk-fS-ky2" userLabel="WWBox1">
+                                <rect key="frame" x="20" y="20" width="960" height="566"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="lJs-mx-2e6">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="MWBox1Entry:" target="fAP-OQ-QrS" id="CGz-zA-wWA"/>
+                                </connections>
+                            </textField>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="WWBox1" destination="quk-fS-ky2" id="efm-OK-RGp"/>
+                    </connections>
                 </viewController>
                 <customObject id="bWG-An-eGR" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1190" y="5575"/>
+            <point key="canvasLocation" x="-1190" y="5653"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Comparative W1" width="1280" height="1810"/>
+        <image name="Comparative W2" width="768" height="576"/>
+        <image name="Comparative W3" width="770" height="576"/>
+        <image name="Comparative W4" width="768" height="576"/>
         <image name="Icon" width="433" height="144"/>
         <image name="Main Screen" width="831" height="625"/>
         <image name="Mind Map Pic" width="1600" height="1200"/>
+        <image name="Persuasive W 1" width="126" height="170"/>
         <image name="Persuasive W 3" width="833" height="624"/>
         <image name="Persuasive W 4" width="834" height="624"/>
         <image name="Persuasive W 5" width="690" height="522"/>
-        <image name="Persuassive Image" width="126" height="170"/>
         <image name="Procedual Image" width="736" height="981"/>
+        <image name="Procedual W1" width="833" height="625"/>
+        <image name="Procedual W2" width="831" height="625"/>
+        <image name="Procedual W3" width="831" height="623"/>
     </resources>
 </document>

@@ -1,22 +1,22 @@
 //
-//  PersuasiveW.swift
+//  ProcedualW.swift
 //  WriteToGo
 //
-//  Created by Julie Liu on 1/25/18.
+//  Created by Julie Liu on 2/22/18.
 //  Copyright © 2018 Julie Liu. All rights reserved.
 //
 
 import Cocoa
 
-class PersuasiveW: NSViewController
+class ProceduralW: NSViewController
 {
-
     
-    @IBAction func ShowPerWE(_ sender: NSButton)
+    
+    @IBAction func ShowProWE(_ sender: NSButton)
     {
         
         NSLog ("before dismiss")
-        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowPerWE"), sender: self)
+        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowProWE"), sender: self)
     }
     
     override func viewDidLoad()
@@ -29,8 +29,6 @@ class PersuasiveW: NSViewController
     {
         self.view.window?.close()
     }
-
-    
     
     
 }

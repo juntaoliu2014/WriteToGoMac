@@ -1,22 +1,22 @@
 //
-//  PersuasiveW.swift
+//  ComparativeW.swift
 //  WriteToGo
 //
-//  Created by Julie Liu on 1/25/18.
+//  Created by Julie Liu on 2/25/18.
 //  Copyright © 2018 Julie Liu. All rights reserved.
 //
 
 import Cocoa
 
-class PersuasiveW: NSViewController
+class ComparativeW: NSViewController
 {
-
     
-    @IBAction func ShowPerWE(_ sender: NSButton)
+    
+    @IBAction func ShowComWE(_ sender: NSButton)
     {
         
         NSLog ("before dismiss")
-        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowPerWE"), sender: self)
+        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowComWE"), sender: self)
     }
     
     override func viewDidLoad()
@@ -29,8 +29,7 @@ class PersuasiveW: NSViewController
     {
         self.view.window?.close()
     }
-
-    
     
     
 }
+
