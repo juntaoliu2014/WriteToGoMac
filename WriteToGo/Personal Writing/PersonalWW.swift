@@ -1,14 +1,14 @@
 //
-//  ComparativeWW.swift
+//  PersonalWW.swift
 //  WriteToGo
 //
-//  Created by Julie Liu on 2/25/18.
+//  Created by Julie Liu on 2/26/18.
 //  Copyright © 2018 Julie Liu. All rights reserved.
 //
 
 import Cocoa
 
-class ComparativeWW: NSViewController
+class PersonalWW: NSViewController
 {
     var saveString = "Temp"
     
@@ -23,20 +23,20 @@ class ComparativeWW: NSViewController
         super.viewDidLoad()
         // Do view setup here.
         
-        readCWWBox1File()
+        readPersWWBox1File()
         
     }
     
     
-    //CWWBox1
-    @IBOutlet weak var CWWBox1: NSTextField!
+    //PersWWBox1
+    @IBOutlet weak var PersWWBox1: NSTextField!
     
     
-    func saveCWWBox1File()
+    func savePersWWBox1File()
     {
-        saveString = CWWBox1.stringValue
+        saveString = PersWWBox1.stringValue
         let str = saveString
-        let filename = getDocumentsDirectory().appendingPathComponent("CWWBox1.txt")
+        let filename = getDocumentsDirectory().appendingPathComponent("PersWWBox1.txt")
         do
         {
             try str.write(to: filename, atomically: true, encoding: String.Encoding.utf8)
@@ -47,14 +47,14 @@ class ComparativeWW: NSViewController
         }
     }
     
-    func readCWWBox1File()
+    func readPersWWBox1File()
     {
         var readString = ""
-        let filename = getDocumentsDirectory().appendingPathComponent("CWWbox1.txt")
+        let filename = getDocumentsDirectory().appendingPathComponent("PersWWbox1.txt")
         do
         {
             readString = try String (contentsOf:filename)
-            CWWBox1.stringValue = readString
+            PersWWBox1.stringValue = readString
             //read the information in the box named "map1Text"
         }
         catch _ as NSError
@@ -63,9 +63,9 @@ class ComparativeWW: NSViewController
         }
     }
     
-    @IBAction func CWWBox1Entry(_ sender: NSTextField)
+    @IBAction func PersWWBox1Entry(_ sender: NSTextField)
     {
-        saveCWWBox1File()
+        savePersWWBox1File()
     }
     
     

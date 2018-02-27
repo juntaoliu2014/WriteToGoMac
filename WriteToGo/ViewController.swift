@@ -41,6 +41,27 @@ class ViewController: NSViewController {
         performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowCom"), sender: self)
     }
     
+    @IBAction func ShowPers(_ sender: NSButton)
+    {
+        
+        NSLog ("before dismiss")
+        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowPers"), sender: self)
+    }
+    
+    @IBAction func ShowIn(_ sender: NSButton)
+    {
+        
+        NSLog ("before dismiss")
+        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowIn"), sender: self)
+    }
+    
+    @IBAction func ShowDes(_ sender: NSButton)
+    {
+        
+        NSLog ("before dismiss")
+        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowDes"), sender: self)
+    }
+    
     override var representedObject: Any? {
         didSet {
         // Update the view, if already loaded.

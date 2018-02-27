@@ -28,6 +28,17 @@
 		5715DF9A20392FD20080499A /* MMBox13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715DF9920392FD20080499A /* MMBox13.swift */; };
 		5715DF9C20392FDE0080499A /* MMBox14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715DF9B20392FDE0080499A /* MMBox14.swift */; };
 		572B37D72033187600963729 /* MMBox1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B37D62033187600963729 /* MMBox1.swift */; };
+		573A093B2044E6EC00B0ACD2 /* DescriptiveW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573A093A2044E6EC00B0ACD2 /* DescriptiveW.swift */; };
+		573A093D2044E6F700B0ACD2 /* DescriptiveWE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573A093C2044E6F700B0ACD2 /* DescriptiveWE.swift */; };
+		573A093F2044E70200B0ACD2 /* DescriptiveWM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573A093E2044E70200B0ACD2 /* DescriptiveWM.swift */; };
+		573A09412044E70C00B0ACD2 /* DescriptiveWW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573A09402044E70C00B0ACD2 /* DescriptiveWW.swift */; };
+		573A09442044E71D00B0ACD2 /* DMMBox1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573A09432044E71D00B0ACD2 /* DMMBox1.swift */; };
+		573A09462044E72500B0ACD2 /* DMMBox2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573A09452044E72500B0ACD2 /* DMMBox2.swift */; };
+		573A09482044E72C00B0ACD2 /* DMMBox3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573A09472044E72C00B0ACD2 /* DMMBox3.swift */; };
+		573A094A2044E73600B0ACD2 /* DMMBox4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573A09492044E73600B0ACD2 /* DMMBox4.swift */; };
+		573A094C2044E74400B0ACD2 /* DMMBox5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573A094B2044E74400B0ACD2 /* DMMBox5.swift */; };
+		573A094E2044E74A00B0ACD2 /* DMMBox6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573A094D2044E74A00B0ACD2 /* DMMBox6.swift */; };
+		573A09502044E76500B0ACD2 /* DWWBox1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573A094F2044E76500B0ACD2 /* DWWBox1.swift */; };
 		577D8E8F20180F7400F2C454 /* IN3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577D8E8E20180F7400F2C454 /* IN3.swift */; };
 		578C4CB0203E403D00B859AE /* ProcedualW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C4CAF203E403D00B859AE /* ProcedualW.swift */; };
 		578C4CB2203E40B600B859AE /* ProcedualWE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C4CB1203E40B600B859AE /* ProcedualWE.swift */; };
@@ -53,7 +64,29 @@
 		578C4CDE2042F32A00B859AE /* CMMBox4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C4CDD2042F32A00B859AE /* CMMBox4.swift */; };
 		578C4CE02042F33300B859AE /* CWWBox1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C4CDF2042F33300B859AE /* CWWBox1.swift */; };
 		5793F956202AB5F400360205 /* PersuasiveWW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5793F955202AB5F400360205 /* PersuasiveWW.swift */; };
+		57A2326620439884001EC46D /* CMMBox5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A2326520439884001EC46D /* CMMBox5.swift */; };
+		57A232682043988E001EC46D /* CMMBox6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A232672043988E001EC46D /* CMMBox6.swift */; };
+		57A2326A20439897001EC46D /* CMMBox7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A2326920439897001EC46D /* CMMBox7.swift */; };
+		57A2326C2043989F001EC46D /* CMMBox8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A2326B2043989F001EC46D /* CMMBox8.swift */; };
+		57A2326F2044342F001EC46D /* PersonalW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A2326E2044342F001EC46D /* PersonalW.swift */; };
+		57A232712044343F001EC46D /* PersonalWE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A232702044343F001EC46D /* PersonalWE.swift */; };
+		57A232732044344E001EC46D /* PersonalWM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A232722044344E001EC46D /* PersonalWM.swift */; };
+		57A232752044345C001EC46D /* PersonalWW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A232742044345C001EC46D /* PersonalWW.swift */; };
+		57A23278204434B4001EC46D /* PersMMBox1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A23277204434B4001EC46D /* PersMMBox1.swift */; };
+		57A2327A204434C2001EC46D /* PersMMBox2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A23279204434C2001EC46D /* PersMMBox2.swift */; };
+		57A2327C204434CB001EC46D /* PersMMBox3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A2327B204434CB001EC46D /* PersMMBox3.swift */; };
+		57A2327E204434D5001EC46D /* PersMMBox4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A2327D204434D5001EC46D /* PersMMBox4.swift */; };
+		57A23280204434DF001EC46D /* PersWWBox1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A2327F204434DF001EC46D /* PersWWBox1.swift */; };
 		57BF40B320196BDB007C25C4 /* PersuasiveW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BF40B220196BDB007C25C4 /* PersuasiveW.swift */; };
+		57FFF29A2044B96600D62756 /* InformationalW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FFF2992044B96600D62756 /* InformationalW.swift */; };
+		57FFF29C2044B97400D62756 /* InformationalWE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FFF29B2044B97400D62756 /* InformationalWE.swift */; };
+		57FFF29E2044B98000D62756 /* InformationalWM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FFF29D2044B98000D62756 /* InformationalWM.swift */; };
+		57FFF2A02044B98B00D62756 /* InformationalWW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FFF29F2044B98B00D62756 /* InformationalWW.swift */; };
+		57FFF2A32044B9A200D62756 /* IMMBox1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FFF2A22044B9A200D62756 /* IMMBox1.swift */; };
+		57FFF2A52044B9AF00D62756 /* IMMBox2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FFF2A42044B9AF00D62756 /* IMMBox2.swift */; };
+		57FFF2A72044B9BC00D62756 /* IMMBox3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FFF2A62044B9BC00D62756 /* IMMBox3.swift */; };
+		57FFF2A92044B9C500D62756 /* IMMBox4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FFF2A82044B9C500D62756 /* IMMBox4.swift */; };
+		57FFF2AB2044B9CF00D62756 /* IWWBox1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FFF2AA2044B9CF00D62756 /* IWWBox1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +114,17 @@
 		5715DF9920392FD20080499A /* MMBox13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMBox13.swift; sourceTree = "<group>"; };
 		5715DF9B20392FDE0080499A /* MMBox14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMBox14.swift; sourceTree = "<group>"; };
 		572B37D62033187600963729 /* MMBox1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMBox1.swift; sourceTree = "<group>"; };
+		573A093A2044E6EC00B0ACD2 /* DescriptiveW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptiveW.swift; sourceTree = "<group>"; };
+		573A093C2044E6F700B0ACD2 /* DescriptiveWE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptiveWE.swift; sourceTree = "<group>"; };
+		573A093E2044E70200B0ACD2 /* DescriptiveWM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptiveWM.swift; sourceTree = "<group>"; };
+		573A09402044E70C00B0ACD2 /* DescriptiveWW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptiveWW.swift; sourceTree = "<group>"; };
+		573A09432044E71D00B0ACD2 /* DMMBox1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMMBox1.swift; sourceTree = "<group>"; };
+		573A09452044E72500B0ACD2 /* DMMBox2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMMBox2.swift; sourceTree = "<group>"; };
+		573A09472044E72C00B0ACD2 /* DMMBox3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMMBox3.swift; sourceTree = "<group>"; };
+		573A09492044E73600B0ACD2 /* DMMBox4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMMBox4.swift; sourceTree = "<group>"; };
+		573A094B2044E74400B0ACD2 /* DMMBox5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMMBox5.swift; sourceTree = "<group>"; };
+		573A094D2044E74A00B0ACD2 /* DMMBox6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMMBox6.swift; sourceTree = "<group>"; };
+		573A094F2044E76500B0ACD2 /* DWWBox1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWWBox1.swift; sourceTree = "<group>"; };
 		577D8E8E20180F7400F2C454 /* IN3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IN3.swift; sourceTree = "<group>"; };
 		578C4CAF203E403D00B859AE /* ProcedualW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedualW.swift; sourceTree = "<group>"; };
 		578C4CB1203E40B600B859AE /* ProcedualWE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedualWE.swift; sourceTree = "<group>"; };
@@ -106,7 +150,29 @@
 		578C4CDD2042F32A00B859AE /* CMMBox4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMMBox4.swift; sourceTree = "<group>"; };
 		578C4CDF2042F33300B859AE /* CWWBox1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWWBox1.swift; sourceTree = "<group>"; };
 		5793F955202AB5F400360205 /* PersuasiveWW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersuasiveWW.swift; sourceTree = "<group>"; };
+		57A2326520439884001EC46D /* CMMBox5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMMBox5.swift; sourceTree = "<group>"; };
+		57A232672043988E001EC46D /* CMMBox6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMMBox6.swift; sourceTree = "<group>"; };
+		57A2326920439897001EC46D /* CMMBox7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMMBox7.swift; sourceTree = "<group>"; };
+		57A2326B2043989F001EC46D /* CMMBox8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMMBox8.swift; sourceTree = "<group>"; };
+		57A2326E2044342F001EC46D /* PersonalW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalW.swift; sourceTree = "<group>"; };
+		57A232702044343F001EC46D /* PersonalWE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalWE.swift; sourceTree = "<group>"; };
+		57A232722044344E001EC46D /* PersonalWM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalWM.swift; sourceTree = "<group>"; };
+		57A232742044345C001EC46D /* PersonalWW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalWW.swift; sourceTree = "<group>"; };
+		57A23277204434B4001EC46D /* PersMMBox1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersMMBox1.swift; sourceTree = "<group>"; };
+		57A23279204434C2001EC46D /* PersMMBox2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersMMBox2.swift; sourceTree = "<group>"; };
+		57A2327B204434CB001EC46D /* PersMMBox3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersMMBox3.swift; sourceTree = "<group>"; };
+		57A2327D204434D5001EC46D /* PersMMBox4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersMMBox4.swift; sourceTree = "<group>"; };
+		57A2327F204434DF001EC46D /* PersWWBox1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersWWBox1.swift; sourceTree = "<group>"; };
 		57BF40B220196BDB007C25C4 /* PersuasiveW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersuasiveW.swift; sourceTree = "<group>"; };
+		57FFF2992044B96600D62756 /* InformationalW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationalW.swift; sourceTree = "<group>"; };
+		57FFF29B2044B97400D62756 /* InformationalWE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationalWE.swift; sourceTree = "<group>"; };
+		57FFF29D2044B98000D62756 /* InformationalWM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationalWM.swift; sourceTree = "<group>"; };
+		57FFF29F2044B98B00D62756 /* InformationalWW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationalWW.swift; sourceTree = "<group>"; };
+		57FFF2A22044B9A200D62756 /* IMMBox1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMMBox1.swift; sourceTree = "<group>"; };
+		57FFF2A42044B9AF00D62756 /* IMMBox2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMMBox2.swift; sourceTree = "<group>"; };
+		57FFF2A62044B9BC00D62756 /* IMMBox3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMMBox3.swift; sourceTree = "<group>"; };
+		57FFF2A82044B9C500D62756 /* IMMBox4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMMBox4.swift; sourceTree = "<group>"; };
+		57FFF2AA2044B9CF00D62756 /* IWWBox1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IWWBox1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +206,9 @@
 			isa = PBXGroup;
 			children = (
 				5714FE48200D870C00DFBDC1 /* ViewController.swift */,
+				573A09392044E6D500B0ACD2 /* Descriptive Writing */,
+				57FFF2982044B94300D62756 /* Informational Writing */,
+				57A2326D2044340A001EC46D /* Personal Writing */,
 				578C4CCD2042EFBC00B859AE /* Comparative Writing */,
 				578C4CAE203E3F8800B859AE /* Procedual Writing */,
 				572B37D42033147500963729 /* Persuasive Writing */,
@@ -184,6 +253,32 @@
 				5715DF9920392FD20080499A /* MMBox13.swift */,
 				5715DF9B20392FDE0080499A /* MMBox14.swift */,
 				578C4CB82040C7FE00B859AE /* WWBox1.swift */,
+			);
+			path = Texts;
+			sourceTree = "<group>";
+		};
+		573A09392044E6D500B0ACD2 /* Descriptive Writing */ = {
+			isa = PBXGroup;
+			children = (
+				573A093A2044E6EC00B0ACD2 /* DescriptiveW.swift */,
+				573A093C2044E6F700B0ACD2 /* DescriptiveWE.swift */,
+				573A093E2044E70200B0ACD2 /* DescriptiveWM.swift */,
+				573A09402044E70C00B0ACD2 /* DescriptiveWW.swift */,
+				573A09422044E70F00B0ACD2 /* Texts */,
+			);
+			path = "Descriptive Writing";
+			sourceTree = "<group>";
+		};
+		573A09422044E70F00B0ACD2 /* Texts */ = {
+			isa = PBXGroup;
+			children = (
+				573A09432044E71D00B0ACD2 /* DMMBox1.swift */,
+				573A09452044E72500B0ACD2 /* DMMBox2.swift */,
+				573A09472044E72C00B0ACD2 /* DMMBox3.swift */,
+				573A09492044E73600B0ACD2 /* DMMBox4.swift */,
+				573A094B2044E74400B0ACD2 /* DMMBox5.swift */,
+				573A094D2044E74A00B0ACD2 /* DMMBox6.swift */,
+				573A094F2044E76500B0ACD2 /* DWWBox1.swift */,
 			);
 			path = Texts;
 			sourceTree = "<group>";
@@ -235,7 +330,59 @@
 				578C4CD92042F31800B859AE /* CMMBox2.swift */,
 				578C4CDB2042F32100B859AE /* CMMBox3.swift */,
 				578C4CDD2042F32A00B859AE /* CMMBox4.swift */,
+				57A2326520439884001EC46D /* CMMBox5.swift */,
+				57A232672043988E001EC46D /* CMMBox6.swift */,
+				57A2326920439897001EC46D /* CMMBox7.swift */,
+				57A2326B2043989F001EC46D /* CMMBox8.swift */,
 				578C4CDF2042F33300B859AE /* CWWBox1.swift */,
+			);
+			path = Texts;
+			sourceTree = "<group>";
+		};
+		57A2326D2044340A001EC46D /* Personal Writing */ = {
+			isa = PBXGroup;
+			children = (
+				57A2326E2044342F001EC46D /* PersonalW.swift */,
+				57A232702044343F001EC46D /* PersonalWE.swift */,
+				57A232722044344E001EC46D /* PersonalWM.swift */,
+				57A232742044345C001EC46D /* PersonalWW.swift */,
+				57A2327620443462001EC46D /* Texts */,
+			);
+			path = "Personal Writing";
+			sourceTree = "<group>";
+		};
+		57A2327620443462001EC46D /* Texts */ = {
+			isa = PBXGroup;
+			children = (
+				57A23277204434B4001EC46D /* PersMMBox1.swift */,
+				57A23279204434C2001EC46D /* PersMMBox2.swift */,
+				57A2327B204434CB001EC46D /* PersMMBox3.swift */,
+				57A2327D204434D5001EC46D /* PersMMBox4.swift */,
+				57A2327F204434DF001EC46D /* PersWWBox1.swift */,
+			);
+			path = Texts;
+			sourceTree = "<group>";
+		};
+		57FFF2982044B94300D62756 /* Informational Writing */ = {
+			isa = PBXGroup;
+			children = (
+				57FFF2992044B96600D62756 /* InformationalW.swift */,
+				57FFF29B2044B97400D62756 /* InformationalWE.swift */,
+				57FFF29D2044B98000D62756 /* InformationalWM.swift */,
+				57FFF29F2044B98B00D62756 /* InformationalWW.swift */,
+				57FFF2A12044B99000D62756 /* Texts */,
+			);
+			path = "Informational Writing";
+			sourceTree = "<group>";
+		};
+		57FFF2A12044B99000D62756 /* Texts */ = {
+			isa = PBXGroup;
+			children = (
+				57FFF2A22044B9A200D62756 /* IMMBox1.swift */,
+				57FFF2A42044B9AF00D62756 /* IMMBox2.swift */,
+				57FFF2A62044B9BC00D62756 /* IMMBox3.swift */,
+				57FFF2A82044B9C500D62756 /* IMMBox4.swift */,
+				57FFF2AA2044B9CF00D62756 /* IWWBox1.swift */,
 			);
 			path = Texts;
 			sourceTree = "<group>";
@@ -311,51 +458,84 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57A2327A204434C2001EC46D /* PersMMBox2.swift in Sources */,
 				5712B676202A5A44002F6968 /* PersuasiveWM.swift in Sources */,
 				5714FE49200D870C00DFBDC1 /* ViewController.swift in Sources */,
+				57A232682043988E001EC46D /* CMMBox6.swift in Sources */,
+				573A094E2044E74A00B0ACD2 /* DMMBox6.swift in Sources */,
 				5715DF9020392ECA0080499A /* MMBox8.swift in Sources */,
 				5715DF84203920AC0080499A /* MMBox3.swift in Sources */,
 				5715DF8220391EF70080499A /* MMBox2.swift in Sources */,
+				57FFF2A32044B9A200D62756 /* IMMBox1.swift in Sources */,
+				57A2327C204434CB001EC46D /* PersMMBox3.swift in Sources */,
 				578C4CC82042EDE500B859AE /* PMMBox6.swift in Sources */,
 				578C4CB6203E428B00B859AE /* ProcedualWW.swift in Sources */,
 				5793F956202AB5F400360205 /* PersuasiveWW.swift in Sources */,
 				5715DF9820392FC10080499A /* MMBox12.swift in Sources */,
 				578C4CD82042F30F00B859AE /* CMMBox1.swift in Sources */,
 				578C4CB2203E40B600B859AE /* ProcedualWE.swift in Sources */,
+				57A2326C2043989F001EC46D /* CMMBox8.swift in Sources */,
+				57FFF2A02044B98B00D62756 /* InformationalWW.swift in Sources */,
 				57BF40B320196BDB007C25C4 /* PersuasiveW.swift in Sources */,
+				57A2327E204434D5001EC46D /* PersMMBox4.swift in Sources */,
+				57A232752044345C001EC46D /* PersonalWW.swift in Sources */,
 				578C4CB4203E40C700B859AE /* ProcedualWM.swift in Sources */,
 				572B37D72033187600963729 /* MMBox1.swift in Sources */,
 				578C4CBC2040CD4500B859AE /* PWWBox1.swift in Sources */,
 				5715DF8C20392DC30080499A /* MMBox7.swift in Sources */,
+				573A09442044E71D00B0ACD2 /* DMMBox1.swift in Sources */,
 				578C4CDA2042F31800B859AE /* CMMBox2.swift in Sources */,
+				57FFF29C2044B97400D62756 /* InformationalWE.swift in Sources */,
 				5715DF9C20392FDE0080499A /* MMBox14.swift in Sources */,
 				578C4CC42042EDD200B859AE /* PMMBox4.swift in Sources */,
 				577D8E8F20180F7400F2C454 /* IN3.swift in Sources */,
+				57FFF29A2044B96600D62756 /* InformationalW.swift in Sources */,
+				573A093B2044E6EC00B0ACD2 /* DescriptiveW.swift in Sources */,
 				5715DF9A20392FD20080499A /* MMBox13.swift in Sources */,
 				578C4CE02042F33300B859AE /* CWWBox1.swift in Sources */,
 				578C4CC02042EDBE00B859AE /* PMMBox2.swift in Sources */,
 				5712B672202A4A7E002F6968 /* IN2.swift in Sources */,
+				57A23278204434B4001EC46D /* PersMMBox1.swift in Sources */,
 				578C4CD12042F0FD00B859AE /* ComparativeWE.swift in Sources */,
+				57A232732044344E001EC46D /* PersonalWM.swift in Sources */,
+				573A093F2044E70200B0ACD2 /* DescriptiveWM.swift in Sources */,
+				573A094C2044E74400B0ACD2 /* DMMBox5.swift in Sources */,
 				5715DF9620392FB50080499A /* MMBox11.swift in Sources */,
+				57FFF2A52044B9AF00D62756 /* IMMBox2.swift in Sources */,
 				578C4CCA2042EDEC00B859AE /* PMMBox7.swift in Sources */,
+				57FFF2A92044B9C500D62756 /* IMMBox4.swift in Sources */,
+				57A23280204434DF001EC46D /* PersWWBox1.swift in Sources */,
 				578C4CDC2042F32100B859AE /* CMMBox3.swift in Sources */,
 				5712B674202A54E8002F6968 /* PersuasiveWE.swift in Sources */,
 				578C4CB92040C7FE00B859AE /* WWBox1.swift in Sources */,
 				5715DF9220392ED50080499A /* MMBox9.swift in Sources */,
 				5715DF8820392C480080499A /* MMBox5.swift in Sources */,
 				5715DF9420392EE10080499A /* MMBox10.swift in Sources */,
+				57FFF2A72044B9BC00D62756 /* IMMBox3.swift in Sources */,
 				578C4CD32042F10F00B859AE /* ComparativeWM.swift in Sources */,
 				578C4CC62042EDDD00B859AE /* PMMBox5.swift in Sources */,
+				573A093D2044E6F700B0ACD2 /* DescriptiveWE.swift in Sources */,
+				57A2326620439884001EC46D /* CMMBox5.swift in Sources */,
+				57A2326A20439897001EC46D /* CMMBox7.swift in Sources */,
 				578C4CD52042F11C00B859AE /* ComparativeWW.swift in Sources */,
+				573A09412044E70C00B0ACD2 /* DescriptiveWW.swift in Sources */,
 				578C4CC22042EDC900B859AE /* PMMBox3.swift in Sources */,
+				573A094A2044E73600B0ACD2 /* DMMBox4.swift in Sources */,
 				578C4CBE2042EDB300B859AE /* PMMBox1.swift in Sources */,
 				578C4CCF2042F0EC00B859AE /* ComparativeW.swift in Sources */,
+				57FFF2AB2044B9CF00D62756 /* IWWBox1.swift in Sources */,
+				57A2326F2044342F001EC46D /* PersonalW.swift in Sources */,
+				573A09482044E72C00B0ACD2 /* DMMBox3.swift in Sources */,
 				578C4CDE2042F32A00B859AE /* CMMBox4.swift in Sources */,
 				578C4CB0203E403D00B859AE /* ProcedualW.swift in Sources */,
 				5715DF8620392BC90080499A /* MMBox4.swift in Sources */,
 				5715DF8A20392CDA0080499A /* MMBox6.swift in Sources */,
+				57FFF29E2044B98000D62756 /* InformationalWM.swift in Sources */,
 				5714FE47200D870C00DFBDC1 /* AppDelegate.swift in Sources */,
+				573A09502044E76500B0ACD2 /* DWWBox1.swift in Sources */,
 				578C4CCC2042EDF500B859AE /* PMMBox8.swift in Sources */,
+				57A232712044343F001EC46D /* PersonalWE.swift in Sources */,
+				573A09462044E72500B0ACD2 /* DMMBox2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

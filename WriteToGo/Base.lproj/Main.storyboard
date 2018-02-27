@@ -794,13 +794,90 @@
                                     <action selector="ShowCom:" target="XfG-lQ-9wD" id="lhL-9G-XvW"/>
                                 </connections>
                             </button>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="emT-df-sfQ">
+                                <rect key="frame" x="217" y="116" width="149" height="195"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Person W1" id="sbg-Rt-IhE"/>
+                            </imageView>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rdm-Ff-LYY" userLabel="Open Per">
+                                <rect key="frame" x="245" y="38" width="92" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Open" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="FnE-HW-dF7">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ShowPers:" target="XfG-lQ-9wD" id="JkM-BU-oIr"/>
+                                </connections>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ug5-Z7-udA">
+                                <rect key="frame" x="219" y="74" width="145" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Personal Writing" id="DqD-ua-f7k">
+                                    <font key="font" size="16" name="ComicSansMS"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MnR-vy-SXa">
+                                <rect key="frame" x="470" y="116" width="153" height="195"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Informational W1" id="Rqb-qY-BBs"/>
+                            </imageView>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Nm-om-4QM" userLabel="Open Per">
+                                <rect key="frame" x="500" y="38" width="92" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Open" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="u6C-8F-Bre">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ShowIn:" target="XfG-lQ-9wD" id="rPc-ke-d0w"/>
+                                </connections>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rcc-NM-tbF">
+                                <rect key="frame" x="460" y="74" width="174" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Informational Writing" id="ZDJ-rV-b03">
+                                    <font key="font" size="16" name="ComicSansMS"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MlU-Lb-Q3T">
+                                <rect key="frame" x="721" y="116" width="145" height="195"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Descriptive W1" id="OZA-xm-tas"/>
+                            </imageView>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Gr-If-E0q" userLabel="Open Per">
+                                <rect key="frame" x="746" y="38" width="92" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Open" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="C8z-vS-we5">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ShowDes:" target="XfG-lQ-9wD" id="s17-DI-3Tq"/>
+                                </connections>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mvY-H2-8f9">
+                                <rect key="frame" x="706" y="74" width="174" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Descriptive Writing" id="zfd-h6-c06">
+                                    <font key="font" size="16" name="ComicSansMS"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                         </subviews>
                     </view>
                     <connections>
-                        <outlet property="OpenPer" destination="Jea-Bb-bJu" id="Lr9-Ju-pyC"/>
                         <segue destination="isg-Ad-ayz" kind="show" identifier="ShowPer" id="YeS-5O-esQ"/>
                         <segue destination="CTu-AW-3iL" kind="show" identifier="ShowPro" id="yCM-ZE-2i0"/>
                         <segue destination="dOq-UO-8nF" kind="show" identifier="ShowCom" id="vJt-Jd-gG3"/>
+                        <segue destination="1kc-bb-JpU" kind="show" identifier="ShowPers" id="6BY-p1-JXd"/>
+                        <segue destination="Y2K-SH-IXR" kind="show" identifier="ShowIn" id="goh-qq-TXl"/>
+                        <segue destination="dit-l4-j8s" kind="show" identifier="ShowDes" id="Prd-fh-n1T"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
@@ -875,6 +952,484 @@
             </objects>
             <point key="canvasLocation" x="881" y="3023"/>
         </scene>
+        <!--Personal W-->
+        <scene sceneID="NEK-lU-4Xx">
+            <objects>
+                <viewController id="1kc-bb-JpU" userLabel="Personal W" customClass="PersonalW" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="2vU-bv-tv6">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qM7-DT-41w">
+                                <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Person W2" id="2rE-Zw-3oK"/>
+                            </imageView>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kab-gl-ZIM">
+                                <rect key="frame" x="874" y="693" width="83" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Next" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="LFZ-pQ-cHT">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ShowPersWE:" target="1kc-bb-JpU" id="Le1-kr-vZV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <segue destination="J22-me-QVh" kind="show" identifier="ShowPersWE" id="Mo9-KW-1vN"/>
+                    </connections>
+                </viewController>
+                <customObject id="dqR-35-m5n" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1927" y="3023"/>
+        </scene>
+        <!--Informational W-->
+        <scene sceneID="NBH-CY-V6r">
+            <objects>
+                <viewController id="Y2K-SH-IXR" userLabel="Informational W" customClass="InformationalW" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="4Lf-dV-bOB">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1TI-Gq-zVL">
+                                <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Informational W2" id="VUm-E6-FJe"/>
+                            </imageView>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m4z-yS-L9J">
+                                <rect key="frame" x="874" y="693" width="83" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Next" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="65S-AC-h4S">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ShowInWE:" target="Y2K-SH-IXR" id="0wQ-l9-Pvf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <segue destination="uFo-yc-DkT" kind="show" identifier="ShowInWE" id="K0V-T6-HkM"/>
+                    </connections>
+                </viewController>
+                <customObject id="kqc-9c-ZJy" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2965" y="3023"/>
+        </scene>
+        <!--Descriptive W-->
+        <scene sceneID="eVf-C0-akP">
+            <objects>
+                <viewController id="dit-l4-j8s" userLabel="Descriptive W" customClass="DescriptiveW" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="jML-p4-Tep">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KhU-4q-nwN">
+                                <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Descriptive W2" id="78F-1j-CGd"/>
+                            </imageView>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uqL-Mv-CQJ">
+                                <rect key="frame" x="874" y="693" width="83" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Next" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="YK8-me-7gV">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ShowDesWE:" target="dit-l4-j8s" id="D8l-5U-Fc8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <segue destination="0FE-9f-HER" kind="show" identifier="ShowDesWE" id="zbg-l6-Zi8"/>
+                    </connections>
+                </viewController>
+                <customObject id="5Ah-1e-OgB" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4002" y="3023"/>
+        </scene>
+        <!--Descriptive WE-->
+        <scene sceneID="HJF-Vz-P3g">
+            <objects>
+                <viewController id="0FE-9f-HER" userLabel="Descriptive WE" customClass="DescriptiveWE" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="aC7-hg-YT0">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RZZ-kw-WE3">
+                                <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Descriptive W3" id="Xeo-fS-sxh"/>
+                            </imageView>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rg8-AN-BuQ">
+                                <rect key="frame" x="874" y="693" width="83" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Next" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="g0F-Pv-wna">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ShowDesMM:" target="0FE-9f-HER" id="vRV-ui-w9u"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <segue destination="bmY-Xo-dEV" kind="show" identifier="ShowDesMM" id="fkS-5B-yNC"/>
+                    </connections>
+                </viewController>
+                <customObject id="Sac-lC-wCZ" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4002" y="3892"/>
+        </scene>
+        <!--Descriptive WM-->
+        <scene sceneID="4P3-mV-N6q">
+            <objects>
+                <viewController id="bmY-Xo-dEV" userLabel="Descriptive WM" customClass="DescriptiveWM" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="39e-Zp-JVO">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mHg-Dt-8Aq">
+                                <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Descriptive W4" id="OY3-wc-7md"/>
+                            </imageView>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fCM-7u-Ibk">
+                                <rect key="frame" x="874" y="693" width="83" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Next" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="cgF-rU-PYz">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ShowDesWW:" target="bmY-Xo-dEV" id="sVi-dt-8kZ"/>
+                                </connections>
+                            </button>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qbr-oZ-Ag0" userLabel="DMMBox1">
+                                <rect key="frame" x="413" y="402" width="173" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="Yza-7Y-1DN">
+                                    <font key="font" metaFont="system"/>
+                                    <string key="title">Topic: Begins with a general statement that identifies the topic
+</string>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="DMMBox1Entry:" target="bmY-Xo-dEV" id="l8v-C0-V0Z"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sbc-2g-xCa" userLabel="DMMBox2">
+                                <rect key="frame" x="86" y="234" width="105" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="sight" drawsBackground="YES" id="jp1-YA-fKn">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="DMMBox2Entry:" target="bmY-Xo-dEV" id="Pht-kw-8Zh"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oaZ-y6-WPi" userLabel="DMMBox4">
+                                <rect key="frame" x="447" y="234" width="105" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="sound" drawsBackground="YES" id="ESf-7z-klz">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="DMMBox4Entry:" target="bmY-Xo-dEV" id="VIx-6h-8Bx"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XP3-nC-ebd" userLabel="DMMBox5">
+                                <rect key="frame" x="627" y="234" width="105" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="taste" drawsBackground="YES" id="vjk-PN-1bM">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="DMMBox5Entry:" target="bmY-Xo-dEV" id="baA-OT-UKb"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vh0-PW-h1J" userLabel="DMMBox6">
+                                <rect key="frame" x="829" y="234" width="105" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="feel" drawsBackground="YES" id="fLv-YK-gti">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="DMMBox6Entry:" target="bmY-Xo-dEV" id="s9O-3v-WIU"/>
+                                </connections>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qwk-T7-b1Y" userLabel="Instruction">
+                                <rect key="frame" x="123" y="581" width="264" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="border" title="Please press Enter or Tab after typing!" id="kSc-6u-rbE">
+                                    <font key="font" size="14" name="ComicSansMS"/>
+                                    <color key="textColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lVi-XH-8Gg" userLabel="DMMBox3">
+                                <rect key="frame" x="269" y="234" width="105" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="smell" drawsBackground="YES" id="mpg-gE-8qO">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="DMMBox3Entry:" target="bmY-Xo-dEV" id="H76-6Y-crW"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="DMMBox1" destination="Qbr-oZ-Ag0" id="8VX-md-BJp"/>
+                        <outlet property="DMMBox2" destination="Sbc-2g-xCa" id="BfM-6H-zJg"/>
+                        <outlet property="DMMBox3" destination="lVi-XH-8Gg" id="csL-FC-5rt"/>
+                        <outlet property="DMMBox4" destination="oaZ-y6-WPi" id="l08-4W-Urg"/>
+                        <outlet property="DMMBox5" destination="XP3-nC-ebd" id="gFO-c3-VD6"/>
+                        <outlet property="DMMBox6" destination="Vh0-PW-h1J" id="v5z-au-Lp1"/>
+                        <segue destination="SDO-dH-Zls" kind="show" identifier="ShowDesWW" id="W0U-pX-hVJ"/>
+                    </connections>
+                </viewController>
+                <customObject id="3fi-Xr-7SX" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4002" y="4769"/>
+        </scene>
+        <!--Descriptive WW-->
+        <scene sceneID="Cp9-Ep-8XI">
+            <objects>
+                <viewController id="SDO-dH-Zls" userLabel="Descriptive WW" customClass="DescriptiveWW" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="ZZE-HJ-c6w">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ip6-hH-op2" userLabel="Icon">
+                                <rect key="frame" x="352" y="657" width="296" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Icon" id="hjP-XC-lok"/>
+                            </imageView>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K1M-j6-B1G" userLabel="Instruction">
+                                <rect key="frame" x="138" y="595" width="725" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" borderStyle="border" id="d5N-2y-o79">
+                                    <font key="font" size="16" name="ComicSansMS"/>
+                                    <string key="title">Now start writing your own essay. You can refer back to the example essay and your mind map. Remember to push Enter or Tab after typing!</string>
+                                    <color key="textColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bSB-eS-dGF" userLabel="IWWBox1">
+                                <rect key="frame" x="20" y="20" width="960" height="566"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="opA-94-8GY">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="IWWBox1Entry:" target="SDO-dH-Zls" id="EN5-50-lIO"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="DWWBox1" destination="bSB-eS-dGF" id="r6O-pF-OBU"/>
+                    </connections>
+                </viewController>
+                <customObject id="w2V-Aa-hbf" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4002" y="5653"/>
+        </scene>
+        <!--Informational WE-->
+        <scene sceneID="aP4-8z-Wcb">
+            <objects>
+                <viewController id="uFo-yc-DkT" userLabel="Informational WE" customClass="InformationalWE" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="ukF-mp-c0o">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AWV-zG-Cxd">
+                                <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Informational W3" id="bNE-ei-cCg"/>
+                            </imageView>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fz8-J4-sY7">
+                                <rect key="frame" x="874" y="693" width="83" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Next" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="mP5-mc-3Q2">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ShowInMM:" target="uFo-yc-DkT" id="N9O-yI-DRj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <segue destination="1ml-LT-7Pg" kind="show" identifier="ShowInMM" id="8ab-XW-Map"/>
+                    </connections>
+                </viewController>
+                <customObject id="dBx-9M-G3x" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2965" y="3892"/>
+        </scene>
+        <!--Informational WM-->
+        <scene sceneID="TDc-dC-d1D">
+            <objects>
+                <viewController id="1ml-LT-7Pg" userLabel="Informational WM" customClass="InformationalWM" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="imt-ys-iYS">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ivl-gZ-bO3">
+                                <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Mind Map Pic" id="Pec-0S-X8K"/>
+                            </imageView>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Is-4v-yqd" userLabel="IMMBox1">
+                                <rect key="frame" x="424" y="529" width="152" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="Topic" drawsBackground="YES" id="k1z-od-kap">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="IMMBox1Entry:" target="1ml-LT-7Pg" id="dKc-de-FCr"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lVq-ja-abr" userLabel="IMMBox2">
+                                <rect key="frame" x="369" y="381" width="263" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="Definition" drawsBackground="YES" id="I0w-pv-gOU">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="IMMBox2Entry:" target="1ml-LT-7Pg" id="fKp-i2-3qk"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kkO-w1-XVn" userLabel="IMMBox3">
+                                <rect key="frame" x="271" y="218" width="459" height="126"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="Description" drawsBackground="YES" id="Ql7-O6-8dZ">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="IMMBox3Entry:" target="1ml-LT-7Pg" id="jfn-ZM-Q5k"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aRN-g3-PFN" userLabel="IMMBox4">
+                                <rect key="frame" x="369" y="109" width="263" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="Conclusion" drawsBackground="YES" id="e15-Ye-Jom">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="IMMBox4Entry:" target="1ml-LT-7Pg" id="xcW-sZ-QhI"/>
+                                </connections>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ILz-UP-axk" userLabel="Instruction">
+                                <rect key="frame" x="123" y="581" width="264" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="border" title="Please press Enter or Tab after typing!" id="DkZ-B6-Vsf">
+                                    <font key="font" size="14" name="ComicSansMS"/>
+                                    <color key="textColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8l9-yp-P48">
+                                <rect key="frame" x="874" y="693" width="83" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Next" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="gLZ-Um-QhV">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ShowInWW:" target="1ml-LT-7Pg" id="QVT-GV-JVe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="IMMBox1" destination="2Is-4v-yqd" id="ZGV-38-ePu"/>
+                        <outlet property="IMMBox2" destination="lVq-ja-abr" id="wrY-bV-hPV"/>
+                        <outlet property="IMMBox3" destination="kkO-w1-XVn" id="MiP-Vh-vSD"/>
+                        <outlet property="IMMBox4" destination="aRN-g3-PFN" id="yCQ-i2-sdX"/>
+                        <segue destination="Bzb-IZ-3r5" kind="show" identifier="ShowInWW" id="aOj-a8-TEp"/>
+                    </connections>
+                </viewController>
+                <customObject id="O5B-yX-5O0" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2965" y="4769"/>
+        </scene>
+        <!--Informational WW-->
+        <scene sceneID="9yu-3s-0XC">
+            <objects>
+                <viewController id="Bzb-IZ-3r5" userLabel="Informational WW" customClass="InformationalWW" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="zNR-YT-neX">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Qi-NC-QcO" userLabel="Icon">
+                                <rect key="frame" x="352" y="657" width="296" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Icon" id="cIs-1S-FRY"/>
+                            </imageView>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XGl-Dn-tvZ" userLabel="Instruction">
+                                <rect key="frame" x="138" y="595" width="725" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" borderStyle="border" id="E9V-ew-73r">
+                                    <font key="font" size="16" name="ComicSansMS"/>
+                                    <string key="title">Now start writing your own essay. You can refer back to the example essay and your mind map. Remember to push Enter or Tab after typing!</string>
+                                    <color key="textColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fl5-Ms-45V" userLabel="IWWBox1">
+                                <rect key="frame" x="20" y="20" width="960" height="566"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="p0v-1w-vPZ">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="IWWBox1Entry:" target="Bzb-IZ-3r5" id="lvg-QJ-coI"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="IWWBox1" destination="Fl5-Ms-45V" id="eqk-jy-7Ty"/>
+                    </connections>
+                </viewController>
+                <customObject id="SMg-jB-f3s" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2965" y="5653"/>
+        </scene>
         <!--Comparative WE-->
         <scene sceneID="sfr-u9-JyT">
             <objects>
@@ -909,6 +1464,193 @@
             </objects>
             <point key="canvasLocation" x="881" y="3892"/>
         </scene>
+        <!--Personal WE-->
+        <scene sceneID="osg-ST-xVX">
+            <objects>
+                <viewController id="J22-me-QVh" userLabel="Personal WE" customClass="PersonalWE" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="hop-aE-AzV">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6mh-rR-eXw">
+                                <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Person W3" id="qj5-jK-g85"/>
+                            </imageView>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sh5-iI-OmT">
+                                <rect key="frame" x="874" y="693" width="83" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Next" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="R1I-mA-oHj">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ShowPersMM:" target="J22-me-QVh" id="asM-di-4iy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <segue destination="mg1-Er-JM8" kind="show" identifier="ShowPersMM" id="PE8-cc-BtG"/>
+                    </connections>
+                </viewController>
+                <customObject id="he2-kY-CLt" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1927" y="3892"/>
+        </scene>
+        <!--Personal WM-->
+        <scene sceneID="u8o-Be-Adh">
+            <objects>
+                <viewController id="mg1-Er-JM8" userLabel="Personal WM" customClass="PersonalWM" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="Skf-tY-rbY">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CJX-M9-jtj">
+                                <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Person W4" id="pW0-l4-73e"/>
+                            </imageView>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mPd-TJ-tS4" userLabel="PersMMBox1">
+                                <rect key="frame" x="152" y="466" width="191" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="gtf-wl-RmB">
+                                    <font key="font" metaFont="system"/>
+                                    <string key="title">Date
+
+To show the time when you make the notes</string>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="PersMMBox1Entry:" target="mg1-Er-JM8" id="y4F-eL-xSR"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A8e-Ka-xaM" userLabel="PersMMBox2">
+                                <rect key="frame" x="652" y="466" width="191" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="cmG-uQ-ssi">
+                                    <font key="font" metaFont="system"/>
+                                    <string key="title">Process
+
+describe the topic, event, or idea from a personal point of view</string>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="PersMMBox2Entry:" target="mg1-Er-JM8" id="jg1-df-RLr"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iV6-Gc-Y9h" userLabel="PersMMBox3">
+                                <rect key="frame" x="152" y="107" width="191" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="bao-2v-m51">
+                                    <font key="font" metaFont="system"/>
+                                    <string key="title">Questions
+
+when you make a notes, you should have a section for the questions</string>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="PersMMBox3Entry:" target="mg1-Er-JM8" id="IbC-NC-qGF"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VhE-lB-ARX" userLabel="PersMMBox4">
+                                <rect key="frame" x="652" y="107" width="191" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="5tR-y4-OpZ">
+                                    <font key="font" metaFont="system"/>
+                                    <string key="title">Images
+
+include visual forms of representation such as sketches, charts, etc.
+</string>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="PersMMBox4Entry:" target="mg1-Er-JM8" id="NTt-8l-bUf"/>
+                                </connections>
+                            </textField>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4mG-Q6-Wml">
+                                <rect key="frame" x="874" y="693" width="83" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Next" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="pkc-fi-DC2">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ShowPersWW:" target="mg1-Er-JM8" id="8R7-9I-Jh9"/>
+                                </connections>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bh6-lc-2q8" userLabel="Instruction">
+                                <rect key="frame" x="89" y="662" width="264" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="border" title="Please press Enter or Tab after typing!" id="keI-IH-jkc">
+                                    <font key="font" size="14" name="ComicSansMS"/>
+                                    <color key="textColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="PersMMBox1" destination="mPd-TJ-tS4" id="aKD-kI-VIF"/>
+                        <outlet property="PersMMBox2" destination="A8e-Ka-xaM" id="GYU-Nu-mbW"/>
+                        <outlet property="PersMMBox3" destination="iV6-Gc-Y9h" id="DMk-Oc-EJm"/>
+                        <outlet property="PersMMBox4" destination="VhE-lB-ARX" id="dU8-tD-MdO"/>
+                        <segue destination="eue-3j-qLE" kind="show" identifier="ShowPersWW" id="vFj-NO-Da0"/>
+                    </connections>
+                </viewController>
+                <customObject id="FSV-If-Tah" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1927" y="4769"/>
+        </scene>
+        <!--Personal WW-->
+        <scene sceneID="X5B-wg-vJZ">
+            <objects>
+                <viewController id="eue-3j-qLE" userLabel="Personal WW" customClass="PersonalWW" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="PHd-mH-10B">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LQV-ap-T3G" userLabel="Icon">
+                                <rect key="frame" x="352" y="657" width="296" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Icon" id="wPz-5d-5xG"/>
+                            </imageView>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dJy-5g-Xus" userLabel="Instruction">
+                                <rect key="frame" x="138" y="595" width="725" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" borderStyle="border" id="TYb-Gz-q5O">
+                                    <font key="font" size="16" name="ComicSansMS"/>
+                                    <string key="title">Now start writing your own essay. You can refer back to the example essay and your mind map. Remember to push Enter or Tab after typing!</string>
+                                    <color key="textColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SVF-An-YUJ" userLabel="WWBox1">
+                                <rect key="frame" x="20" y="20" width="960" height="566"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="GLl-z6-W2p">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="PersWWBox1Entry:" target="eue-3j-qLE" id="VZD-nP-O1b"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="PersWWBox1" destination="SVF-An-YUJ" id="VJo-7M-zJd"/>
+                    </connections>
+                </viewController>
+                <customObject id="V5Y-OB-BVN" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1927" y="5653"/>
+        </scene>
         <!--Comparative WM-->
         <scene sceneID="qV1-XS-aZo">
             <objects>
@@ -922,8 +1664,139 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Comparative W4" id="TWF-cI-JBP"/>
                             </imageView>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Dg-lN-OLr" userLabel="CMMBox1">
+                                <rect key="frame" x="390" y="510" width="189" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="vXj-DW-OQD">
+                                    <font key="font" metaFont="system"/>
+                                    <string key="title">Goal or thesis: the things you want to compare
+</string>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="CMMBox1Entry:" target="PJZ-MN-De1" id="adT-wc-bXd"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bq9-tD-BAY" userLabel="CMMBox2">
+                                <rect key="frame" x="109" y="375" width="186" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="Characteristic 1" drawsBackground="YES" id="RUL-VO-EQb">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="CMMBox2Entry:" target="PJZ-MN-De1" id="KCP-Zl-K6U"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FA4-8f-Udd" userLabel="CMMBox3">
+                                <rect key="frame" x="109" y="219" width="186" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="Reason 1: Example/Evidence to show how you compared" drawsBackground="YES" id="dlB-1n-ayq">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="CMMBox3Entry:" target="PJZ-MN-De1" id="Ujq-3Z-WAk"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wXp-D6-sMo" userLabel="CMMBox4">
+                                <rect key="frame" x="393" y="375" width="186" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="Characteristic 2" drawsBackground="YES" id="DC8-4v-rHp">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="CMMBox4Entry:" target="PJZ-MN-De1" id="Gyg-gI-XMq"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3KA-8f-1UO" userLabel="CMMBox5">
+                                <rect key="frame" x="390" y="217" width="186" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="Reason 2: Example/Evidence to show how you compared" drawsBackground="YES" id="mXd-7z-8o6">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="CMMBox5Entry:" target="PJZ-MN-De1" id="TbU-xI-xcB"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pja-6F-dld" userLabel="CMMBox6">
+                                <rect key="frame" x="708" y="375" width="186" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="Characteristic 3" drawsBackground="YES" id="BVt-ND-GiT">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="CMMBox6Entry:" target="PJZ-MN-De1" id="Rex-4h-Usn"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H6d-M2-irx" userLabel="CMMBox7">
+                                <rect key="frame" x="708" y="219" width="186" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="Reason 3: Example/Evidence to show how you compared" drawsBackground="YES" id="5h1-zE-zQX">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="CMMBox7Entry:" target="PJZ-MN-De1" id="fMr-Hj-ARR"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nMm-Ac-npW" userLabel="CMMBox8">
+                                <rect key="frame" x="390" y="61" width="185" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="INH-Pb-iP6">
+                                    <font key="font" metaFont="system"/>
+                                    <string key="title">Conclusion: get a final result for your comparative writing
+</string>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="CMMBox8Entry:" target="PJZ-MN-De1" id="Gco-Ds-M09"/>
+                                </connections>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="95c-Jx-5Zd" userLabel="Instruction">
+                                <rect key="frame" x="124" y="621" width="264" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="border" title="Please press Enter or Tab after typing!" id="qNK-ig-DBJ">
+                                    <font key="font" size="14" name="ComicSansMS"/>
+                                    <color key="textColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HtV-wQ-kw7">
+                                <rect key="frame" x="874" y="693" width="83" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Next" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Jjm-bY-0mR">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ShowComWW:" target="PJZ-MN-De1" id="g7t-cl-Mrz"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="CMMBox1" destination="9Dg-lN-OLr" id="lv8-za-jdv"/>
+                        <outlet property="CMMBox2" destination="bq9-tD-BAY" id="XPb-AM-kZC"/>
+                        <outlet property="CMMBox3" destination="FA4-8f-Udd" id="2OW-tr-t80"/>
+                        <outlet property="CMMBox4" destination="wXp-D6-sMo" id="enB-tz-GLt"/>
+                        <outlet property="CMMBox5" destination="3KA-8f-1UO" id="POx-dL-tLg"/>
+                        <outlet property="CMMBox6" destination="pja-6F-dld" id="kWj-sl-vCt"/>
+                        <outlet property="CMMBox7" destination="H6d-M2-irx" id="gsh-GQ-n3f"/>
+                        <outlet property="CMMBox8" destination="nMm-Ac-npW" id="z6V-sS-B5b"/>
+                        <segue destination="FdO-Wv-J6m" kind="show" identifier="ShowComWW" id="1xW-Zo-MH7"/>
+                    </connections>
                 </viewController>
                 <customObject id="hGe-IJ-Qdd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1155,6 +2028,51 @@
             </objects>
             <point key="canvasLocation" x="-156" y="5653"/>
         </scene>
+        <!--Comparative WW-->
+        <scene sceneID="W9c-jJ-WMw">
+            <objects>
+                <viewController id="FdO-Wv-J6m" userLabel="Comparative WW" customClass="ComparativeWW" customModule="WriteToGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="DSI-6M-pxp">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="750"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nFV-w7-XIn" userLabel="Icon">
+                                <rect key="frame" x="352" y="657" width="296" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Icon" id="t4z-1M-9cF"/>
+                            </imageView>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zZv-WP-VyX" userLabel="Instruction">
+                                <rect key="frame" x="138" y="595" width="725" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" borderStyle="border" id="Yzp-8T-4bD">
+                                    <font key="font" size="16" name="ComicSansMS"/>
+                                    <string key="title">Now start writing your own essay. You can refer back to the example essay and your mind map. Remember to push Enter or Tab after typing!</string>
+                                    <color key="textColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X0G-Tg-NkE" userLabel="WWBox1">
+                                <rect key="frame" x="20" y="20" width="960" height="566"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="58i-jd-NaA">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="CWWBox1Entry:" target="FdO-Wv-J6m" id="NLm-RE-lrv"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="CWWBox1" destination="X0G-Tg-NkE" id="qyF-qn-Vp8"/>
+                    </connections>
+                </viewController>
+                <customObject id="KBr-By-qQ0" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="881" y="5653"/>
+        </scene>
         <!--Persuasive W-->
         <scene sceneID="Lhg-ot-pfv">
             <objects>
@@ -1232,7 +2150,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aPE-u4-Ooz" userLabel="Background">
-                                <rect key="frame" x="-20" y="-20" width="1020" height="800"/>
+                                <rect key="frame" x="-16" y="0.0" width="1036" height="757"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Mind Map Pic" id="xJm-yz-Vqu"/>
                             </imageView>
@@ -1504,9 +2422,20 @@
         <image name="Comparative W2" width="768" height="576"/>
         <image name="Comparative W3" width="770" height="576"/>
         <image name="Comparative W4" width="768" height="576"/>
+        <image name="Descriptive W1" width="124" height="169"/>
+        <image name="Descriptive W2" width="769" height="579"/>
+        <image name="Descriptive W3" width="768" height="577"/>
+        <image name="Descriptive W4" width="768" height="576"/>
         <image name="Icon" width="433" height="144"/>
+        <image name="Informational W1" width="500" height="643"/>
+        <image name="Informational W2" width="768" height="577"/>
+        <image name="Informational W3" width="769" height="577"/>
         <image name="Main Screen" width="831" height="625"/>
-        <image name="Mind Map Pic" width="1600" height="1200"/>
+        <image name="Mind Map Pic" width="767" height="580"/>
+        <image name="Person W1" width="120" height="156.47999572753906"/>
+        <image name="Person W2" width="768" height="577"/>
+        <image name="Person W3" width="770" height="577"/>
+        <image name="Person W4" width="768" height="576"/>
         <image name="Persuasive W 1" width="126" height="170"/>
         <image name="Persuasive W 3" width="833" height="624"/>
         <image name="Persuasive W 4" width="834" height="624"/>

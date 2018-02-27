@@ -1,14 +1,14 @@
 //
-//  ComparativeWW.swift
+//  DescriptiveWW.swift
 //  WriteToGo
 //
-//  Created by Julie Liu on 2/25/18.
+//  Created by Julie Liu on 2/27/18.
 //  Copyright © 2018 Julie Liu. All rights reserved.
 //
 
 import Cocoa
 
-class ComparativeWW: NSViewController
+class DescriptiveWW: NSViewController
 {
     var saveString = "Temp"
     
@@ -23,20 +23,20 @@ class ComparativeWW: NSViewController
         super.viewDidLoad()
         // Do view setup here.
         
-        readCWWBox1File()
+        readDWWBox1File()
         
     }
     
     
-    //CWWBox1
-    @IBOutlet weak var CWWBox1: NSTextField!
+    //DWWBox1
+    @IBOutlet weak var DWWBox1: NSTextField!
     
     
-    func saveCWWBox1File()
+    func saveDWWBox1File()
     {
-        saveString = CWWBox1.stringValue
+        saveString = DWWBox1.stringValue
         let str = saveString
-        let filename = getDocumentsDirectory().appendingPathComponent("CWWBox1.txt")
+        let filename = getDocumentsDirectory().appendingPathComponent("DWWBox1.txt")
         do
         {
             try str.write(to: filename, atomically: true, encoding: String.Encoding.utf8)
@@ -47,14 +47,14 @@ class ComparativeWW: NSViewController
         }
     }
     
-    func readCWWBox1File()
+    func readDWWBox1File()
     {
         var readString = ""
-        let filename = getDocumentsDirectory().appendingPathComponent("CWWbox1.txt")
+        let filename = getDocumentsDirectory().appendingPathComponent("DWWbox1.txt")
         do
         {
             readString = try String (contentsOf:filename)
-            CWWBox1.stringValue = readString
+            DWWBox1.stringValue = readString
             //read the information in the box named "map1Text"
         }
         catch _ as NSError
@@ -63,9 +63,9 @@ class ComparativeWW: NSViewController
         }
     }
     
-    @IBAction func CWWBox1Entry(_ sender: NSTextField)
+    @IBAction func IWWBox1Entry(_ sender: NSTextField)
     {
-        saveCWWBox1File()
+        saveDWWBox1File()
     }
     
     

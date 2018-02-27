@@ -24,8 +24,11 @@ class ComparativeWM: NSViewController
         readCMMBox2File()
         readCMMBox3File()
         readCMMBox4File()
-        
-        
+        readCMMBox5File()
+        readCMMBox6File()
+        readCMMBox7File()
+        readCMMBox8File()
+
     }
     
     
@@ -177,7 +180,144 @@ class ComparativeWM: NSViewController
         }
     }
     
+    //CMMBox5
+    @IBOutlet weak var CMMBox5: NSTextField!
     
+    
+    func saveCMMBox5File()
+    {
+        saveString = CMMBox5.stringValue
+        let str = saveString
+        let filename = getDocumentsDirectory().appendingPathComponent("CMMBox5.txt")
+        do
+        {
+            try str.write(to: filename, atomically: true, encoding: String.Encoding.utf8)
+        }
+        catch
+        {
+            // failed to write file – bad permissions, bad filename, missing permissions, or more likely it can't be converted to the encoding
+        }
+    }
+    
+    func readCMMBox5File()
+    {
+        var readString = ""
+        let filename = getDocumentsDirectory().appendingPathComponent("CMMbox5.txt")
+        do
+        {
+            readString = try String (contentsOf:filename)
+            CMMBox5.stringValue = readString
+            //read the information in the box named "map1Text"
+        }
+        catch _ as NSError
+        {
+            print("Read Error")
+        }
+    }
+    
+    //CMMBox6
+    @IBOutlet weak var CMMBox6: NSTextField!
+    
+    
+    func saveCMMBox6File()
+    {
+        saveString = CMMBox6.stringValue
+        let str = saveString
+        let filename = getDocumentsDirectory().appendingPathComponent("CMMBox6.txt")
+        do
+        {
+            try str.write(to: filename, atomically: true, encoding: String.Encoding.utf8)
+        }
+        catch
+        {
+            // failed to write file – bad permissions, bad filename, missing permissions, or more likely it can't be converted to the encoding
+        }
+    }
+    
+    func readCMMBox6File()
+    {
+        var readString = ""
+        let filename = getDocumentsDirectory().appendingPathComponent("CMMbox6.txt")
+        do
+        {
+            readString = try String (contentsOf:filename)
+            CMMBox6.stringValue = readString
+            //read the information in the box named "map1Text"
+        }
+        catch _ as NSError
+        {
+            print("Read Error")
+        }
+    }
+    //CMMBox7
+    @IBOutlet weak var CMMBox7: NSTextField!
+    
+    
+    func saveCMMBox7File()
+    {
+        saveString = CMMBox7.stringValue
+        let str = saveString
+        let filename = getDocumentsDirectory().appendingPathComponent("CMMBox7.txt")
+        do
+        {
+            try str.write(to: filename, atomically: true, encoding: String.Encoding.utf8)
+        }
+        catch
+        {
+            // failed to write file – bad permissions, bad filename, missing permissions, or more likely it can't be converted to the encoding
+        }
+    }
+    
+    func readCMMBox7File()
+    {
+        var readString = ""
+        let filename = getDocumentsDirectory().appendingPathComponent("CMMbox7.txt")
+        do
+        {
+            readString = try String (contentsOf:filename)
+            CMMBox7.stringValue = readString
+            //read the information in the box named "map1Text"
+        }
+        catch _ as NSError
+        {
+            print("Read Error")
+        }
+    }
+    
+    //CMMBox8
+    @IBOutlet weak var CMMBox8: NSTextField!
+    
+    
+    func saveCMMBox8File()
+    {
+        saveString = CMMBox8.stringValue
+        let str = saveString
+        let filename = getDocumentsDirectory().appendingPathComponent("CMMBox8.txt")
+        do
+        {
+            try str.write(to: filename, atomically: true, encoding: String.Encoding.utf8)
+        }
+        catch
+        {
+            // failed to write file – bad permissions, bad filename, missing permissions, or more likely it can't be converted to the encoding
+        }
+    }
+    
+    func readCMMBox8File()
+    {
+        var readString = ""
+        let filename = getDocumentsDirectory().appendingPathComponent("CMMbox8.txt")
+        do
+        {
+            readString = try String (contentsOf:filename)
+            CMMBox8.stringValue = readString
+            //read the information in the box named "map1Text"
+        }
+        catch _ as NSError
+        {
+            print("Read Error")
+        }
+    }
     
     @IBAction func CMMBox1Entry(_ sender: NSTextField)
     {
@@ -195,6 +335,22 @@ class ComparativeWM: NSViewController
     {
         saveCMMBox4File()
     }
+    @IBAction func CMMBox5Entry(_ sender: NSTextField)
+    {
+        saveCMMBox5File()
+    }
+    @IBAction func CMMBox6Entry(_ sender: NSTextField)
+    {
+        saveCMMBox6File()
+    }
+    @IBAction func CMMBox7Entry(_ sender: NSTextField)
+    {
+        saveCMMBox7File()
+    }
+    @IBAction func CMMBox8Entry(_ sender: NSTextField)
+    {
+        saveCMMBox8File()
+    }
     
     
     
@@ -202,7 +358,7 @@ class ComparativeWM: NSViewController
     {
         
         NSLog ("before dismiss")
-        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowProWW"), sender: self)
+        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowComWW"), sender: self)
     }
     
     

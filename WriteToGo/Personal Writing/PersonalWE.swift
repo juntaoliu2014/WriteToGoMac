@@ -1,22 +1,22 @@
 //
-//  ComparativeWE.swift
+//  PersonalWE.swift
 //  WriteToGo
 //
-//  Created by Julie Liu on 2/25/18.
+//  Created by Julie Liu on 2/26/18.
 //  Copyright © 2018 Julie Liu. All rights reserved.
 //
 
 import Cocoa
 
-class ComparativeWE: NSViewController
+class PersonalWE: NSViewController
 {
     
     
-    @IBAction func ShowComMM(_ sender: NSButton)
+    @IBAction func ShowPersMM(_ sender: NSButton)
     {
         
         NSLog ("before dismiss")
-        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowComWM"), sender: self)
+        performSegue(withIdentifier: NSStoryboardSegue.Identifier(rawValue: "ShowPersMM"), sender: self)
     }
     
     
@@ -29,4 +29,3 @@ class ComparativeWE: NSViewController
     
     
 }
-
